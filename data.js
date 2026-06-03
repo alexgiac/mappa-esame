@@ -2264,7 +2264,7 @@ const locationsData = [
   },
   {
     "name": "Le Castella (Isola di Capo Rizzuto)",
-    "region": "Veneto",
+    "region": "Calabria",
     "sezione": "I",
     "sezione_both": false,
     "lat": 38.908889,
@@ -2276,7 +2276,7 @@ const locationsData = [
   },
   {
     "name": "Grotte di Pertosa-Auletta",
-    "region": "Veneto",
+    "region": "Campania",
     "sezione": "I",
     "sezione_both": false,
     "lat": 40.55,
@@ -2288,7 +2288,7 @@ const locationsData = [
   },
   {
     "name": "Parco Nazionale del Vesuvio",
-    "region": "Veneto",
+    "region": "Campania",
     "sezione": "I",
     "sezione_both": false,
     "lat": 40.817,
@@ -2300,7 +2300,7 @@ const locationsData = [
   },
   {
     "name": "Santuario di San Pio da Pietrelcina",
-    "region": "Veneto",
+    "region": "Puglia",
     "sezione": "I",
     "sezione_both": false,
     "lat": 41.707122,
@@ -2312,7 +2312,7 @@ const locationsData = [
   },
   {
     "name": "Basilica di San Francesco d'Assisi",
-    "region": "Veneto",
+    "region": "Umbria",
     "sezione": "I",
     "sezione_both": false,
     "lat": 43.07484,

@@ -150,7 +150,7 @@ btnFiltroScritto.addEventListener('click', () => {
 const openMuseumModal = (loc) => {
     // Populate header
     document.getElementById('museum-title').innerHTML = loc.name + (loc.exam_id ? ` <span style="background:var(--primary);color:white;padding:4px 8px;border-radius:4px;font-size:0.85rem;vertical-align:middle;margin-left:8px;">ID: ${loc.exam_id}</span>` : '');
-    document.getElementById('museum-main-desc').innerText = loc.extract || 'Nessuna descrizione disponibile.';
+    document.getElementById('museum-main-desc').innerHTML = loc.extract || 'Nessuna descrizione disponibile.';
     
     const linkObj = document.getElementById('museum-main-link');
     if (loc.url) {
