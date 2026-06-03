@@ -263,7 +263,11 @@ locations_raw = [
     {"name": "Castello di Quart", "region": "Valle d'Aosta", "sezione": "I"},
     
     # ID 118 Cluster
-    {"name": "Vicenza Centro", "region": "Veneto", "sezione": "I", "fallback_lat": 45.5467, "fallback_lon": 11.5475, "subsections": ["Cattedrale di Santa Maria Annunciata", "Criptoportico romano (Vicenza)", "Basilica Palladiana"]},
+    {"name": "Vicenza Centro", "region": "Veneto", "sezione": "I", "fallback_lat": 45.5467, "fallback_lon": 11.5475, "subsections": [
+        {"name": "Duomo di Vicenza", "search": "Cattedrale di Santa Maria Annunziata"},
+        {"name": "Criptoportico di Vicenza", "search": "Criptoportico romano (Vicenza)"},
+        {"name": "Basilica Palladiana"}
+    ]},
     
     # ID 119 Split
     {"name": "Arena di Verona", "region": "Veneto", "sezione": "I"},
@@ -274,13 +278,13 @@ locations_raw = [
     {"name": "Padova Centro", "region": "Veneto", "sezione": "I", "fallback_lat": 45.4064, "fallback_lon": 11.8767, "subsections": ["Basilica di Sant'Antonio di Padova", "Prato della Valle", "Cappella degli Scrovegni"]},
     
     # ID 121 Cluster
-    {"name": "Piazza San Marco e Dintorni", "region": "Veneto", "sezione": "I", "fallback_lat": 45.4336, "fallback_lon": 12.3384, "subsections": ["Basilica di San Marco", "Palazzo Ducale (Venezia)"]},
+    {"name": "Sistema monumentale di Piazza San Marco", "region": "Veneto", "sezione": "I", "fallback_lat": 45.4336, "fallback_lon": 12.3384, "subsections": ["Basilica di San Marco", "Palazzo Ducale (Venezia)"]},
     
     # ID 122 Cluster
     {"name": "Laguna di Venezia", "region": "Veneto", "sezione": "I", "fallback_lat": 45.4371, "fallback_lon": 12.3326, "subsections": ["Canal Grande", "Murano", "Burano", "Torcello"]},
     
     {"name": "Colline del Prosecco di Conegliano e Valdobbiadene", "region": "Veneto", "sezione": "I", "fallback_lat": 45.8972, "fallback_lon": 12.0000},
-    {"name": "Ville palladiane", "region": "Veneto", "sezione": "I", "search": "Villa Capra", "fallback_lat": 45.5317, "fallback_lon": 11.5622},
+    {"name": "Ville palladiane", "region": "Veneto", "sezione": "I", "fallback_lat": 45.5317, "fallback_lon": 11.5622},
     
     # SEZIONE II (Musei)
     {"name": "Museo archeologico nazionale di Reggio Calabria", "region": "Calabria", "sezione": "II", "subsections": [
@@ -389,7 +393,7 @@ for loc in locations_raw:
 locations = list(locations_dict.values())
 
 def fetch_wiki_info(title, retries=4):
-    url = "https://it.wikipedia.org/w/api.php?action=query&prop=coordinates|pageimages|extracts&exintro&explaintext&exchars=250&titles=" + urllib.parse.quote(title) + "&format=json&pithumbsize=500"
+    url = "https://it.wikipedia.org/w/api.php?action=query&prop=coordinates|pageimages|extracts&exintro&explaintext&exchars=250&redirects=1&titles=" + urllib.parse.quote(title) + "&format=json&pithumbsize=500"
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': 'MappaEsameBot/1.5'})
@@ -444,10 +448,11 @@ for loc in locations:
     if "subsections" in loc:
         for sub in loc["subsections"]:
             sub_name = sub["name"] if isinstance(sub, dict) else sub
+            sub_search = sub.get("search", sub_name) if isinstance(sub, dict) else sub_name
             specific_works = sub.get("specific_works") if isinstance(sub, dict) else None
             
             print(f"  Fetching subsection: {sub_name}")
-            sub_info = fetch_wiki_info(sub_name)
+            sub_info = fetch_wiki_info(sub_search)
             if sub_info:
                 extract_text = sub_info["extract"]
                 if specific_works:
