@@ -2314,13 +2314,13 @@ const locationsData = [
     "name": "Basilica di San Francesco d'Assisi",
     "region": "Umbria",
     "sezione": "I",
-    "sezione_both": false,
+    "sezione_both": true,
     "lat": 43.07484,
     "lon": 12.60581,
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sacro_Convento_%28Assisi%29_-_Remote_view.jpg",
     "extract": "<p>La <b>basilica di San Francesco</b> si trova ad Assisi, in Umbria. È il luogo che dal 1230 conserva e custodisce le spoglie mortali del santo serafico.\n</p><p>Voluta da papa Gregorio IX quale <i>specialis ecclesia</i>, venne insignita dallo stesso Pontefice del titolo di <i>Caput et Mater</i> dell'Ordine minoritico e contestualmente affidata in perpetuo agli stessi frati. Fa parte delle proprietà non extraterritoriali della Santa Sede, quindi non gode di immunità diplomatica. Nella complessa storia che ha segnato l'evoluzione dell'Ordine, la basilica (e l'annesso Sacro Convento) fu sempre custodita dai cosiddetti \"frati della comunità\", il gruppo che andò in seguito a costituire l'Ordine dei Frati Minori Conventuali.\n</p><p>Presso la Chiesa sepolcrale della Basilica dove fu eretto l'altare sulla tomba del Santo, il 19 novembre 1585, il papa francescano Sisto V, con la bolla <i>Supernae dispositionis</i> istituiva l'Arciconfraternita dei Cordigeri. Nel 1754 Benedetto XIV l'ha elevata alla dignità di Basilica patriarcale (dal 2006 \"Basilica papale\") e Cappella papale. Nell'anno 2000, insieme ad altri siti francescani del circondario, la basilica è stata inserita nella Lista del patrimonio dell'umanità dell'UNESCO. È monumento nazionale italiano.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco_d'Assisi",
-    "exam_id": "I.111"
+    "exam_id": "I.111 / III.36"
   },
   {
     "name": "Museo di Capodimonte",
@@ -2372,7 +2372,7 @@ const locationsData = [
   },
   {
     "name": "Parco archeologico di Scolacium",
-    "region": "Roma",
+    "region": "Calabria",
     "sezione": "III",
     "sezione_both": false,
     "lat": 38.807034,
@@ -2384,7 +2384,7 @@ const locationsData = [
   },
   {
     "name": "Parco Nazionale del Cilento e Vallo di Diano",
-    "region": "Roma",
+    "region": "Campania",
     "sezione": "III",
     "sezione_both": false,
     "lat": 40.2,
@@ -2396,7 +2396,7 @@ const locationsData = [
   },
   {
     "name": "Castel Sant’Angelo",
-    "region": "Roma",
+    "region": "Lazio",
     "sezione": "III",
     "sezione_both": false,
     "lat": 41.903044,
@@ -2408,7 +2408,7 @@ const locationsData = [
   },
   {
     "name": "Grotte di Catullo",
-    "region": "Roma",
+    "region": "Lombardia",
     "sezione": "III",
     "sezione_both": false,
     "lat": 45.501453,
@@ -2420,7 +2420,7 @@ const locationsData = [
   },
   {
     "name": "Monte Etna",
-    "region": "Roma",
+    "region": "Sicilia",
     "sezione": "III",
     "sezione_both": false,
     "lat": 37.750835,
@@ -2432,7 +2432,7 @@ const locationsData = [
   },
   {
     "name": "Ponte di Rialto",
-    "region": "Roma",
+    "region": "Veneto",
     "sezione": "III",
     "sezione_both": false,
     "lat": 45.438008,
