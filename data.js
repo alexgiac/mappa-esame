@@ -10,7 +10,7 @@ const locationsData = [
     "extract": "Alba Fucens (nel XX secolo nota anche come Alba Fucente) è un sito sorto nel IV secolo a.C. come colonia di diritto latino in una posizione elevata e ben fortificata di circa 34 ettari a 966 m s.l.m. alle pendici del monte Velino in Abruzzo. È situata...",
     "url": "https://it.wikipedia.org/wiki/Alba_Fucens",
     "subsections": [],
-    "exam_id": "III.1"
+    "exam_id": "I.1"
   },
   {
     "name": "Parco Nazionale del Gran Sasso e Monti della Laga",
@@ -88,7 +88,7 @@ const locationsData = [
     "extract": "I Sassi di Matera sono due quartieri di Matera, Sasso Caveoso e Sasso Barisano, formati da edifici e architetture rupestri scavati nella roccia della Murgia materana. Insieme al rione Civita (costruito sullo sperone che separa i due Sassi), costituiscono...",
     "url": "https://it.wikipedia.org/wiki/Sassi_di_Matera",
     "subsections": [],
-    "exam_id": "III.2"
+    "exam_id": "I.7"
   },
   {
     "name": "Gerace",
@@ -140,7 +140,7 @@ const locationsData = [
     "extract": "Capo Colonna (o Capocolonna) - noto in età coloniale (antica, classica ed ellenistica) come Capo Lacinio: Λακίνιον ἄκρον), e poi promontorium Lacinium in età romana) - è un promontorio sito otto chilometri a sud di Crotone, che costituisce la punta più...",
     "url": "https://it.wikipedia.org/wiki/Capo_Colonna",
     "subsections": [],
-    "exam_id": "III.3"
+    "exam_id": "I.88"
   },
   {
     "name": "Le Castella",
@@ -244,7 +244,7 @@ const locationsData = [
     "extract": "La reggia di Caserta è una residenza reale, storicamente appartenuta ai Borbone delle Due Sicilie, ubicata a Caserta. Voluta da Carlo di Borbone, la posa della prima pietra, che diede l'avvio ai lavori di costruzione, si ebbe il 20 gennaio 1752, su progetto...",
     "url": "https://it.wikipedia.org/wiki/Reggia_di_Caserta",
     "subsections": [],
-    "exam_id": "III.5"
+    "exam_id": "I.19"
   },
   {
     "name": "Scavi archeologici di Ercolano",
@@ -1055,7 +1055,7 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Trulli di Alberobello.",
     "url": "https://it.wikipedia.org/wiki/Trulli_di_Alberobello",
     "subsections": [],
-    "exam_id": "III.24"
+    "exam_id": "I.72"
   },
   {
     "name": "Basilica di San Nicola",
@@ -1094,7 +1094,7 @@ const locationsData = [
     "extract": "Castel del Monte è un castello del XIII secolo, fatto costruire da Federico II di Svevia, imperatore del Sacro Romano Impero e re di Sicilia. È stato costruito sulla sommità di una collina a 539 metri s.l.m nell'altopiano pugliese delle Murge settentrionali...",
     "url": "https://it.wikipedia.org/wiki/Castel_del_Monte",
     "subsections": [],
-    "exam_id": "III.23"
+    "exam_id": "I.75"
   },
   {
     "name": "Castello Aragonese (Otranto)",
@@ -1419,7 +1419,7 @@ const locationsData = [
     "extract": "La piazza del Duomo è il centro artistico e turistico più importante di Pisa. Annoverata fra i Patrimoni dell'Umanità dall'UNESCO dal 1987, vi si possono ammirare i quattro monumenti che formano il centro della vita religiosa cittadina, detti miracoli...",
     "url": "https://it.wikipedia.org/wiki/Piazza_dei_Miracoli",
     "subsections": [],
-    "exam_id": "III.35"
+    "exam_id": "I.99"
   },
   {
     "name": "Ponte Vecchio",
@@ -1432,7 +1432,7 @@ const locationsData = [
     "extract": "Il Ponte Vecchio è un ponte storico sul fiume Arno a Firenze. Il ponte collega via Por Santa Maria (angolo lungarno degli Acciaiuoli e lungarno degli Archibusieri) a via de' Guicciardini (angolo borgo San Jacopo e via de' Bardi).\nLa denominazione fu conferita...",
     "url": "https://it.wikipedia.org/wiki/Ponte_Vecchio",
     "subsections": [],
-    "exam_id": "III.34"
+    "exam_id": "I.31"
   },
   {
     "name": "Torri di San Gimignano",
@@ -1707,14 +1707,14 @@ const locationsData = [
     "exam_id": "I.43"
   },
   {
-    "name": "Piazza San Marco e Dintorni",
+    "name": "Sistema monumentale di Piazza San Marco",
     "region": "Veneto",
     "sezione": "I",
     "sezione_both": false,
     "lat": 45.4336,
     "lon": 12.3384,
     "image": null,
-    "extract": "Descrizione o riassunto di Wikipedia non disponibile per Piazza San Marco e Dintorni.",
+    "extract": "Il cuore di Venezia, definito da Napoleone 'il salotto più bello d'Europa'. Circondata dalle Procuratie, dominata dalla Basilica d'Oro e dal Palazzo Ducale.",
     "url": "https://it.wikipedia.org/wiki/Piazza_San_Marco_e_Dintorni",
     "subsections": [
       {
@@ -1730,7 +1730,7 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Palazzo_Ducale_%28Venezia%29"
       }
     ],
-    "exam_id": "I.99"
+    "exam_id": "I.121"
   },
   {
     "name": "Colline del Prosecco di Conegliano e Valdobbiadene",
@@ -1885,7 +1885,7 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Passetto_di_Borgo"
       }
     ],
-    "exam_id": "II.7"
+    "exam_id": "II.7 / III.11"
   },
   {
     "name": "Galleria nazionale d'arte moderna e contemporanea",
