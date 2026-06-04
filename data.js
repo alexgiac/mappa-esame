@@ -330,16 +330,29 @@ const locationsData = [
     "exam_id": "I.24"
   },
   {
-    "name": "Domus dei tappeti di pietra",
+    "name": "Ravenna",
     "region": "Emilia-Romagna",
     "sezione": "I",
     "sezione_both": false,
     "lat": 44.418886,
     "lon": 12.194814,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Domus_Tappeti_di_Pietra_7.JPG/500px-Domus_Tappeti_di_Pietra_7.JPG",
-    "extract": "La Domus dei tappeti di pietra è un sito archeologico della città di Ravenna collocato in un ambiente ipogeo situato circa tre metri sotto la Chiesa di Sant'Eufemia.",
-    "url": "https://it.wikipedia.org/wiki/Domus_dei_tappeti_di_pietra",
-    "subsections": [],
+    "image": null,
+    "extract": "Descrizione non disponibile per Ravenna.",
+    "url": "https://it.wikipedia.org/wiki/Ravenna",
+    "subsections": [
+      {
+        "name": "Monumenti paleocristiani di Ravenna",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29-edit.jpg",
+        "extract": "<p>I <b>monumenti paleocristiani di Ravenna</b> sono un sito seriale inserito dall'UNESCO nella lista dei patrimoni dell'umanità dal 7 dicembre 1996. Il sito è costituito da otto monumenti risalenti al V e al VI secolo: il mausoleo di Galla Placidia, il battistero Neoniano, il battistero degli Ariani, la cappella Arcivescovile, la basilica di Sant'Apollinare Nuovo, il mausoleo di Teodorico, la basilica di San Vitale e la basilica di Sant'Apollinare in Classe.</p>",
+        "url": "https://it.wikipedia.org/wiki/Monumenti_paleocristiani_di_Ravenna"
+      },
+      {
+        "name": "Domus dei tappeti di pietra",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Domus_Tappeti_di_Pietra_7.JPG/500px-Domus_Tappeti_di_Pietra_7.JPG",
+        "extract": "La Domus dei tappeti di pietra è un sito archeologico della città di Ravenna collocato in un ambiente ipogeo situato circa tre metri sotto la Chiesa di Sant'Eufemia.",
+        "url": "https://it.wikipedia.org/wiki/Domus_dei_tappeti_di_pietra"
+      }
+    ],
     "exam_id": "I.25"
   },
   {
@@ -2335,6 +2348,38 @@ const locationsData = [
     "exam_id": "II.3"
   },
   {
+    "name": "Museo Nazionale di Ravenna",
+    "region": "Emilia-Romagna",
+    "sezione": "II",
+    "sezione_both": false,
+    "lat": 44.4206,
+    "lon": 12.1963,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ravenna%2C_Museo_nazionale_%2803%29.jpg",
+    "extract": "<p>Il <b>Museo nazionale di Ravenna</b> è un museo istituito a Ravenna, che conserva materiale archeologico, reperti lapidei di varie epoche e oggetti d'arte (bronzetti, avori, icone, armi, ceramiche).</p>",
+    "url": "https://it.wikipedia.org/wiki/Museo_nazionale_di_Ravenna",
+    "subsections": [
+      {
+        "name": "Mosaici",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Christ_Pantocrator_-_Cathedral_of_Cefal%C3%B9_-_Italy_2015_%28crop%29.JPG",
+        "extract": "<p>Il <b>mosaico</b> è una tecnica di decorazione artistica parietale o pavimentale.</p>",
+        "url": "https://it.wikipedia.org/wiki/Mosaico"
+      },
+      {
+        "name": "Oggetti Paleocristiani",
+        "image": null,
+        "extract": "Oggetti di arte paleocristiana conservati nel museo.",
+        "url": "https://it.wikipedia.org/wiki/Arte_paleocristiana"
+      },
+      {
+        "name": "Codici Miniati",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Melusinediscovered.jpg",
+        "extract": "<p>Una <b>miniatura</b> è la pittura ornamentale con cui venivano decorati i manoscritti e i libri antichi.</p>",
+        "url": "https://it.wikipedia.org/wiki/Miniatura"
+      }
+    ],
+    "exam_id": "II.4"
+  },
+  {
     "name": "Galleria degli Uffizi",
     "region": "Toscana",
     "sezione": "II",
@@ -2393,6 +2438,19 @@ const locationsData = [
     "extract": "<p>Il <b>parco nazionale del Cilento, Vallo di Diano e Alburni</b> è un parco nazionale istituito nel 1991, mentre nel 1995 è istituito l'ente per la sua gestione. L'area naturale protetta di circa <span>36 000</span> ettari, interamente compresa nella provincia di Salerno, è stata successivamente estesa fino a portare la sua superficie a <span>181 048</span> ettari, corrispondendo oggi alla parte meridionale della provincia, compresa tra la piana del Sele a nord, la Basilicata a est e a sud e il mar Tirreno ad ovest. Comprende, in tutto o in parte, i territori di 8 comunità montane e 80 comuni. Dal 1998 è patrimonio dell'umanità dell'UNESCO (con i siti archeologici di Paestum e Velia e la Certosa di Padula), dal 1997 è Riserva della biosfera e dal 2010 è il primo parco nazionale italiano a diventare geoparco. La sede del parco è a Vallo della Lucania.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Parco_Nazionale_del_Cilento_e_Vallo_di_Diano",
     "exam_id": "III.6"
+  },
+  {
+    "name": "Monumenti paleocristiani di Ravenna",
+    "region": "Emilia-Romagna",
+    "sezione": "III",
+    "sezione_both": false,
+    "lat": 44.418886,
+    "lon": 12.194814,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29-edit.jpg",
+    "extract": "<p>I <b>monumenti paleocristiani di Ravenna</b> sono un sito seriale inserito dall'UNESCO nella lista dei patrimoni dell'umanità dal 7 dicembre 1996. Il sito è costituito da otto monumenti risalenti al V e al VI secolo: il mausoleo di Galla Placidia, il battistero Neoniano, il battistero degli Ariani, la cappella Arcivescovile, la basilica di Sant'Apollinare Nuovo, il mausoleo di Teodorico, la basilica di San Vitale e la basilica di Sant'Apollinare in Classe.</p>",
+    "url": "https://it.wikipedia.org/wiki/Monumenti_paleocristiani_di_Ravenna",
+    "subsections": [],
+    "exam_id": "III.9"
   },
   {
     "name": "Castel Sant’Angelo",
