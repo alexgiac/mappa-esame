@@ -78,6 +78,10 @@ data.forEach(loc => {
                 popupHtml += `<p class="popup-desc">${loc.extract}</p>`;
             }
             
+            if (loc.pdf) {
+                popupHtml += `<a href="${loc.pdf}" target="_blank" class="popup-btn" style="background-color: #059669; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">📄 Scheda Studio PDF</a>`;
+            }
+
             if (loc.url) {
                 popupHtml += `<a href="${loc.url}" target="_blank" class="popup-btn">Approfondisci su Wikipedia</a>`;
             }
@@ -160,6 +164,14 @@ const openMuseumModal = (loc) => {
         linkObj.style.display = 'none';
     }
 
+    const pdfObj = document.getElementById('museum-main-pdf');
+    if (loc.pdf) {
+        pdfObj.href = loc.pdf;
+        pdfObj.style.display = 'inline-block';
+    } else {
+        pdfObj.style.display = 'none';
+    }
+
     const mainImg = document.getElementById('museum-main-img');
     if (loc.image) {
         mainImg.src = loc.image;
@@ -191,10 +203,14 @@ const openMuseumModal = (loc) => {
             if (sub.extract) {
                 html += `<p>${sub.extract}</p>`;
             }
+            html += `<div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">`;
+            if (sub.pdf) {
+                html += `<a href="${sub.pdf}" target="_blank" class="btn-link" style="font-size:0.85rem; background-color: #059669; border-color: #059669;">📄 Scheda Studio</a>`;
+            }
             if (sub.url) {
                 html += `<a href="${sub.url}" target="_blank" class="btn-link" style="font-size:0.85rem;">Vedi su Wiki</a>`;
             }
-            html += `</div>`;
+            html += `</div></div>`;
             
             card.innerHTML = html;
             subContainer.appendChild(card);

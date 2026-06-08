@@ -10,7 +10,8 @@ const locationsData = [
     "extract": "Alba Fucens (nel XX secolo nota anche come Alba Fucente) è un sito sorto nel IV secolo a.C. come colonia di diritto latino in una posizione elevata e ben fortificata di circa 34 ettari a 966 m s.l.m. alle pendici del monte Velino in Abruzzo. È situata...",
     "url": "https://it.wikipedia.org/wiki/Alba_Fucens",
     "subsections": [],
-    "exam_id": "I.1"
+    "exam_id": "I.1",
+    "pdf": "SCHEDE STUDIO\\ABRUZZO\\scheda_alba_fucens.pdf"
   },
   {
     "name": "Parco Nazionale del Gran Sasso e Monti della Laga",
@@ -62,7 +63,8 @@ const locationsData = [
     "extract": "Le Dolomiti Lucane (o Piccole Dolomiti lucane), sono un gruppo montuoso dell'Appennino meridionale situate nell'Appennino lucano, ad est della più imponente dorsale Pierantonio, che  costituiscono il cuore dell'omonimo parco naturale regionale (che si...",
     "url": "https://it.wikipedia.org/wiki/Dolomiti_lucane",
     "subsections": [],
-    "exam_id": "I.4"
+    "exam_id": "I.4",
+    "pdf": "SCHEDE STUDIO\\BASILICATA\\scheda_dolomiti_lucane.pdf"
   },
   {
     "name": "Metaponto (sito archeologico)",
@@ -75,7 +77,8 @@ const locationsData = [
     "extract": "Metaponto (in greco antico Μεταπόντιον?, Metapóntion; in latino Metapontum) è un sito archeologico nei pressi di Metaponto, frazione del comune di Bernalda in provincia di Matera.\nIl parco archeologico è a due chilometri dal Museo archeologico nazionale...",
     "url": "https://it.wikipedia.org/wiki/Metaponto_%28sito_archeologico%29",
     "subsections": [],
-    "exam_id": "I.5"
+    "exam_id": "I.5",
+    "pdf": "SCHEDE STUDIO\\BASILICATA\\scheda_metaponto.pdf"
   },
   {
     "name": "Parco nazionale del Pollino",
@@ -114,7 +117,8 @@ const locationsData = [
     "extract": "I Sassi di Matera sono due quartieri di Matera, Sasso Caveoso e Sasso Barisano, formati da edifici e architetture rupestri scavati nella roccia della Murgia materana. Insieme al rione Civita (costruito sullo sperone che separa i due Sassi), costituiscono...",
     "url": "https://it.wikipedia.org/wiki/Sassi_di_Matera",
     "subsections": [],
-    "exam_id": "I.7"
+    "exam_id": "I.7",
+    "pdf": "SCHEDE STUDIO\\BASILICATA\\scheda_sassi_matera.pdf"
   },
   {
     "name": "Centro storico di Genova",
@@ -140,7 +144,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Museo_e_Parco_Archeologico_di_Locri_Epizefiri",
     "subsections": [],
-    "exam_id": "I.9"
+    "exam_id": "I.9",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_locri.pdf"
   },
   {
     "name": "Cattolica di Stilo",
@@ -166,7 +171,8 @@ const locationsData = [
     "extract": "Sìbari (in greco antico Σύβαρις?, Sýbaris) è una frazione del comune di Cassano all'Ionio, in provincia di Cosenza. Fu una delle più importanti città (poleis) della Magna Grecia sul mar Ionio, affacciata sul golfo di Taranto, tra i fiumi Crati (Crathis...",
     "url": "https://it.wikipedia.org/wiki/Sibari",
     "subsections": [],
-    "exam_id": "I.11"
+    "exam_id": "I.11",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_sibari.pdf"
   },
   {
     "name": "Parco Archeologico di Sibari",
@@ -179,7 +185,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Sibari",
     "subsections": [],
-    "exam_id": "I.11"
+    "exam_id": "I.11",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_sibari.pdf"
   },
   {
     "name": "Museo archeologico nazionale di Reggio Calabria",
@@ -218,7 +225,8 @@ const locationsData = [
     "extract": "Le Castella – frazione della provincia di Crotone, in Calabria\nLe Castella – territorio di Cisterna di Latina, nel Lazio",
     "url": "https://it.wikipedia.org/wiki/Le_Castella",
     "subsections": [],
-    "exam_id": "I.13"
+    "exam_id": "I.13",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_le_castella.pdf"
   },
   {
     "name": "Le Castella (Isola di Capo Rizzuto)",
@@ -230,7 +238,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortezza_Aragonese_Le_Castella_%28KR%29.jpg",
     "extract": "<p><b>Punta delle Castella</b>, più nota come <b>Le Castella</b>, è un borgo costiero italiano in provincia di Crotone, in Calabria. È situata sulla costa ionica della Calabria, nell'estremità orientale del golfo di Squillace a <span><span data-sort-value=\"7004200000000000000♠\"></span>20 km</span> da Crotone e <span><span data-sort-value=\"7004400000000000000♠\"></span>40 km</span> da Catanzaro. \n</p><p>Il borgo è noto principalmente per la fortezza circondata dal mare e le sue coste costituite da spiagge e scogliere di vario tipo. La flora e la fauna marina sono tutelate dall'area marina protetta di Capo Rizzuto, la più estesa in Italia.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Le_Castella_(Isola_di_Capo_Rizzuto)",
-    "exam_id": "I.13"
+    "exam_id": "I.13",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_le_castella.pdf"
   },
   {
     "name": "Parco nazionale della Sila",
@@ -269,7 +278,8 @@ const locationsData = [
     "extract": "Amalfi è un comune italiano di 4 556 abitanti della provincia di Salerno in Campania.\nFiorente repubblica marinara in epoca alto-medievale (assieme a Genova, Pisa e Venezia), è altresì nota per aver dato il nome alle Tavole amalfitane, un codice marittimo...",
     "url": "https://it.wikipedia.org/wiki/Amalfi",
     "subsections": [],
-    "exam_id": "I.16"
+    "exam_id": "I.16",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_costiera_amalfitana.pdf"
   },
   {
     "name": "Positano",
@@ -308,7 +318,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Costiera_Amalfitana%3A_Amalfi%2C_Positano%2C_Ravello",
     "subsections": [],
-    "exam_id": "I.16"
+    "exam_id": "I.16",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_costiera_amalfitana.pdf"
   },
   {
     "name": "Cuma",
@@ -321,7 +332,8 @@ const locationsData = [
     "extract": "Cuma (in latino Cumae) era un'antica città di origine greca della città metropolitana di Napoli, nel territorio del comune di Pozzuoli, localizzato nell'area vulcanica dei Campi Flegrei. Le varie campagne di scoperta hanno portato alla luce gli scavi...",
     "url": "https://it.wikipedia.org/wiki/Cuma",
     "subsections": [],
-    "exam_id": "I.17"
+    "exam_id": "I.17",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_cuma.pdf"
   },
   {
     "name": "Parco Archeologico di Cuma",
@@ -346,7 +358,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/PERTOSA_%28Caves-2%29.JPG",
     "extract": "<p>Le <b>Grotte di Pertosa</b>, anche note come <b>grotte di Pertosa-Auletta</b> o <b>grotte dell’Angelo</b>, sono un complesso di cavità carsiche di rilevanza turistica, situate nel comune di Pertosa. Il complesso carsico si sviluppa nel sottosuolo dei vicini comuni di Auletta e Polla, a <span><span data-sort-value=\"7002263000000000000♠\"></span>263 m s.l.m.</span>, attraversato dal fiume Tanagro.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Grotte_di_Pertosa-Auletta",
-    "exam_id": "I.18"
+    "exam_id": "I.18",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_pertosa_auletta.pdf"
   },
   {
     "name": "Reggia di Caserta",
@@ -359,7 +372,8 @@ const locationsData = [
     "extract": "La reggia di Caserta è una residenza reale, storicamente appartenuta ai Borbone delle Due Sicilie, ubicata a Caserta. Voluta da Carlo di Borbone, la posa della prima pietra, che diede l'avvio ai lavori di costruzione, si ebbe il 20 gennaio 1752, su progetto...",
     "url": "https://it.wikipedia.org/wiki/Reggia_di_Caserta",
     "subsections": [],
-    "exam_id": "I.19"
+    "exam_id": "I.19",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_reggia_caserta.pdf"
   },
   {
     "name": "Scavi archeologici di Ercolano",
@@ -372,7 +386,8 @@ const locationsData = [
     "extract": "Gli scavi archeologici di Ercolano hanno restituito i resti dell'antica città di Ercolano, seppellita sotto una coltre di ceneri, lapilli e fango durante l'eruzione del Vesuvio del 79, insieme a Pompei, Stabia e Oplonti.\nDopo un primo ritrovamento casuale...",
     "url": "https://it.wikipedia.org/wiki/Scavi_archeologici_di_Ercolano",
     "subsections": [],
-    "exam_id": "I.20"
+    "exam_id": "I.20",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_ercolano.pdf"
   },
   {
     "name": "Parco Archeologico di Paestum",
@@ -385,7 +400,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Paestum",
     "subsections": [],
-    "exam_id": "I.21"
+    "exam_id": "I.21",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_paestum.pdf"
   },
   {
     "name": "Scavi archeologici di Pompei",
@@ -398,7 +414,8 @@ const locationsData = [
     "extract": "Gli scavi archeologici di Pompei hanno restituito i resti della città di Pompei antica, presso la collina di Civita, alle porte della moderna Pompei, seppellita sotto una coltre di ceneri e lapilli durante l'eruzione del Vesuvio del 79, insieme a Ercolano...",
     "url": "https://it.wikipedia.org/wiki/Scavi_archeologici_di_Pompei",
     "subsections": [],
-    "exam_id": "I.22"
+    "exam_id": "I.22",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_pompei.pdf"
   },
   {
     "name": "Parco Nazionale del Vesuvio",
@@ -440,7 +457,8 @@ const locationsData = [
         "name": "Monumenti paleocristiani di Ravenna",
         "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29-edit.jpg",
         "extract": "<p>I <b>monumenti paleocristiani di Ravenna</b> sono un sito seriale inserito dall'UNESCO nella lista dei patrimoni dell'umanità dal 7 dicembre 1996. Il sito è costituito da otto monumenti risalenti al V e al VI secolo: il mausoleo di Galla Placidia, il battistero Neoniano, il battistero degli Ariani, la cappella Arcivescovile, la basilica di Sant'Apollinare Nuovo, il mausoleo di Teodorico, la basilica di San Vitale e la basilica di Sant'Apollinare in Classe.</p>",
-        "url": "https://it.wikipedia.org/wiki/Monumenti_paleocristiani_di_Ravenna"
+        "url": "https://it.wikipedia.org/wiki/Monumenti_paleocristiani_di_Ravenna",
+        "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ravenna.pdf"
       },
       {
         "name": "Domus dei tappeti di pietra",
@@ -449,7 +467,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Domus_dei_tappeti_di_pietra"
       }
     ],
-    "exam_id": "I.25"
+    "exam_id": "I.25",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ravenna.pdf"
   },
   {
     "name": "Duomo di Parma",
@@ -488,7 +507,8 @@ const locationsData = [
     "extract": "Il palazzo della Pilotta, chiamato anche semplicemente la Pilotta, è un complesso monumentale che si trova nel centro storico di Parma, situato tra piazzale della Pace e il Lungoparma. Il nome deriva dal gioco della pelota basca, praticato dai soldati...",
     "url": "https://it.wikipedia.org/wiki/Palazzo_della_Pilotta",
     "subsections": [],
-    "exam_id": "I.27"
+    "exam_id": "I.27",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_pilotta.pdf"
   },
   {
     "name": "Gerace",
@@ -501,7 +521,8 @@ const locationsData = [
     "extract": "Gerace è un comune italiano di 2 275 abitanti della città metropolitana di Reggio Calabria in Calabria. Si trova nel Parco nazionale dell'Aspromonte, il centro storico conserva un'impostazione medievale.",
     "url": "https://it.wikipedia.org/wiki/Gerace",
     "subsections": [],
-    "exam_id": "I.28"
+    "exam_id": "I.28",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_gerace.pdf"
   },
   {
     "name": "Ferrara, Città del Rinascimento, Castello Estense e Delta del Po",
@@ -514,7 +535,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Ferrara%2C_Citt%C3%A0_del_Rinascimento%2C_Castello_Estense_e_Delta_del_Po",
     "subsections": [],
-    "exam_id": "I.28"
+    "exam_id": "I.28",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ferrara.pdf"
   },
   {
     "name": "Duomo e Palazzo Ducale",
@@ -553,7 +575,8 @@ const locationsData = [
     "extract": "Il Ponte del Diavolo (in friulano Puìnt dal Diàul; in dialetto sloveno locale Velik muost, lett. \"Grande ponte\"; in sloveno Hudičev most) è il simbolo della città di Cividale del Friuli (UD). Costruito in pietra a partire dal 1442 e ripartito in due arcate...",
     "url": "https://it.wikipedia.org/wiki/Ponte_del_Diavolo_%28Cividale_del_Friuli%29",
     "subsections": [],
-    "exam_id": "I.31"
+    "exam_id": "I.31",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_cividale.pdf"
   },
   {
     "name": "Ponte del Diavolo, Tempietto Longobardo e Complesso Episcopale",
@@ -579,7 +602,8 @@ const locationsData = [
     "extract": "Aquileia (AFI: /akwiˈlɛja/;  in friulano Aquilee, nella variante locale Aquilea, in friulano antico Olee o Olea, in tedesco Aglar o Aglay, in sloveno Oglej) è un comune italiano di 3 116 abitanti dell'ex provincia di Udine, in Friuli-Venezia Giulia. Durante...",
     "url": "https://it.wikipedia.org/wiki/Aquileia",
     "subsections": [],
-    "exam_id": "I.32"
+    "exam_id": "I.32",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_aquileia.pdf"
   },
   {
     "name": "Aquileia e Museo Archeologico Nazionale",
@@ -592,7 +616,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Aquileia_e_Museo_Archeologico_Nazionale",
     "subsections": [],
-    "exam_id": "I.32"
+    "exam_id": "I.32",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_aquileia.pdf"
   },
   {
     "name": "Sacrario militare di Redipuglia",
@@ -605,7 +630,8 @@ const locationsData = [
     "extract": "Il sacrario militare di Redipuglia è il maggiore cimitero militare italiano, situato nell'omonima frazione di Fogliano Redipuglia, in provincia di Gorizia.\nCostruito dal governo Mussolini e inaugurato il 18 settembre 1938, alla presenza del capo del governo...",
     "url": "https://it.wikipedia.org/wiki/Sacrario_militare_di_Redipuglia",
     "subsections": [],
-    "exam_id": "I.33"
+    "exam_id": "I.33",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_redipuglia.pdf"
   },
   {
     "name": "Castello di Miramare",
@@ -618,7 +644,8 @@ const locationsData = [
     "extract": "Il castello di Miramare (Schloss Miramar in tedesco; grad Miramar in sloveno) è un edificio storico e museo di Trieste. Il complesso, circondato da un ampio parco, fu originariamente costruito tra il 1856 e il 1860 nella zona di Grignano (poi a sua volta...",
     "url": "https://it.wikipedia.org/wiki/Castello_di_Miramare",
     "subsections": [],
-    "exam_id": "I.34"
+    "exam_id": "I.34",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_miramare.pdf"
   },
   {
     "name": "Basilica di San Giovanni in Laterano",
@@ -657,7 +684,8 @@ const locationsData = [
     "extract": "Il Circo Massimo è un antico circo romano che si trova a Roma. Situato nella valle tra il Palatino e l'Aventino, è ricordato come sede di giochi sin dagli inizi della storia della città: nella valle Murcia secondo la leggenda dei Consualia narrata da...",
     "url": "https://it.wikipedia.org/wiki/Circo_Massimo",
     "subsections": [],
-    "exam_id": "I.37"
+    "exam_id": "I.37",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_circo_massimo_terme_caracalla.pdf"
   },
   {
     "name": "Civita di Bagnoregio",
@@ -683,7 +711,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Colosseo",
     "subsections": [],
-    "exam_id": "I.39"
+    "exam_id": "I.39",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_colosseo.pdf"
   },
   {
     "name": "Necropoli di Montessu",
@@ -735,7 +764,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Ostia_Antica",
     "subsections": [],
-    "exam_id": "I.42"
+    "exam_id": "I.42",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_ostia_antica.pdf"
   },
   {
     "name": "Pantheon (Roma)",
@@ -748,7 +778,8 @@ const locationsData = [
     "extract": "Il Pantheon (in greco antico πάνθεoν [ἱερόν]?, Pántheon [hierón], \"[tempio] di tutti gli dei\") in latino classico Pantheum, è un edificio della Roma antica situato nel rione Pigna nel centro storico, costruito come tempio dedicato a tutte le divinità...",
     "url": "https://it.wikipedia.org/wiki/Pantheon_%28Roma%29",
     "subsections": [],
-    "exam_id": "I.43"
+    "exam_id": "I.43",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_pantheon.pdf"
   },
   {
     "name": "Pranu Muttedu",
@@ -778,16 +809,19 @@ const locationsData = [
         "name": "Basilica di Sant'Antonio di Padova",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Basilica_of_St._Anthony_in_Padua.jpg/500px-Basilica_of_St._Anthony_in_Padua.jpg",
         "extract": "La Pontificia Basilica Minore di Sant'Antonio di Padova è uno dei principali luoghi di culto cattolici della città di Padova, in Veneto.\nConosciuta a livello mondiale come Basilica del Santo, o più semplicemente come il Santo, è una delle più grandi chiese...",
-        "url": "https://it.wikipedia.org/wiki/Basilica_di_Sant%27Antonio_di_Padova"
+        "url": "https://it.wikipedia.org/wiki/Basilica_di_Sant%27Antonio_di_Padova",
+        "pdf": "SCHEDE STUDIO\\VENETO\\scheda_padova.pdf"
       },
       {
         "name": "Cappella degli Scrovegni",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/La_Cappella_degli_Scrovegni.JPG/500px-La_Cappella_degli_Scrovegni.JPG",
         "extract": "La cappella degli Scrovegni è una chiesa di Padova, in precedenza cappella privata, divenuta parte dei Musei civici di Padova. Ospita un noto ciclo di affreschi di Giotto dei primi anni del XIV secolo, considerato uno dei capolavori dell'arte occidentale...",
-        "url": "https://it.wikipedia.org/wiki/Cappella_degli_Scrovegni"
+        "url": "https://it.wikipedia.org/wiki/Cappella_degli_Scrovegni",
+        "pdf": "SCHEDE STUDIO\\VENETO\\scheda_padova.pdf"
       }
     ],
-    "exam_id": "I.43"
+    "exam_id": "I.43",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_padova.pdf"
   },
   {
     "name": "Fori Imperiali",
@@ -800,7 +834,8 @@ const locationsData = [
     "extract": "I Fori Imperiali costituiscono una serie di cinque piazze monumentali edificate nel corso di un secolo e mezzo (tra il 46 a.C. e il 113 d.C.) nel cuore della città di Roma da parte di Giulio Cesare e degli imperatori Augusto, Vespasiano, Nerva e Traiano...",
     "url": "https://it.wikipedia.org/wiki/Fori_Imperiali",
     "subsections": [],
-    "exam_id": "I.44"
+    "exam_id": "I.44",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_fori_imperiali.pdf"
   },
   {
     "name": "Nora (Italia)",
@@ -826,7 +861,8 @@ const locationsData = [
     "extract": "La basilica di San Pietro in Vaticano è una basilica cattolica ubicata in Piazza San Pietro nello stato della Città del Vaticano. È la più grande delle quattro basiliche papali di Roma ed è spesso indicata come la più grande chiesa del mondo sia per le...",
     "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Pietro_in_Vaticano",
     "subsections": [],
-    "exam_id": "I.45"
+    "exam_id": "I.45",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_san_pietro.pdf"
   },
   {
     "name": "Vicenza Centro",
@@ -843,13 +879,15 @@ const locationsData = [
         "name": "Duomo di Vicenza",
         "image": null,
         "extract": "Cattedrale di Santa Maria Annunziata, a Otranto (LE)\nCattedrale di Santa Maria Annunziata, a Udine\nConcattedrale di Santa Maria Annunziata, a Priverno (LT)",
-        "url": "https://it.wikipedia.org/wiki/Cattedrale_di_Santa_Maria_Annunziata"
+        "url": "https://it.wikipedia.org/wiki/Cattedrale_di_Santa_Maria_Annunziata",
+        "pdf": "SCHEDE STUDIO\\VENETO\\scheda_vicenza.pdf"
       },
       {
         "name": "Criptoportico di Vicenza",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Criptoportico_Vicenza_ingresso.jpg/500px-Criptoportico_Vicenza_ingresso.jpg",
         "extract": "Il criptoportico romano di Vicenza è un criptoportico della antica Vicetia (odierna Vicenza), risalente alla fine del I secolo a.C. Al criptoportico, perfettamente conservato, si accede dall'ingresso posto nell'attuale Piazza Duomo e si estende sotto...",
-        "url": "https://it.wikipedia.org/wiki/Criptoportico_romano_%28Vicenza%29"
+        "url": "https://it.wikipedia.org/wiki/Criptoportico_romano_%28Vicenza%29",
+        "pdf": "SCHEDE STUDIO\\VENETO\\scheda_vicenza.pdf"
       },
       {
         "name": "Basilica Palladiana",
@@ -858,7 +896,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Basilica_Palladiana"
       }
     ],
-    "exam_id": "I.45"
+    "exam_id": "I.45",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_vicenza.pdf"
   },
   {
     "name": "Parco Archeologico dell'Appia Antica",
@@ -871,7 +910,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/l%27Appia_Antica",
     "subsections": [],
-    "exam_id": "I.46"
+    "exam_id": "I.46",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_appia_antica.pdf"
   },
   {
     "name": "Roma barocca monumentale: Fontana di Trevi, Piazza Navona, Vittoriano e Piazza Venezia",
@@ -884,7 +924,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Roma_barocca_monumentale%3A_Fontana_di_Trevi%2C_Piazza_Navona%2C_Vittoriano_e_Piazza_Venezia",
     "subsections": [],
-    "exam_id": "I.47"
+    "exam_id": "I.47",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_roma_barocca.pdf"
   },
   {
     "name": "Cattedrale di San Lorenzo (Genova)",
@@ -897,7 +938,8 @@ const locationsData = [
     "extract": "La cattedrale metropolitana di San Lorenzo è il più importante luogo di culto cattolico della città di Genova e la chiesa madre dell'omonima arcidiocesi. Situata nell'omonima piazza nel cuore del centro storico, rappresenta uno dei monumenti più iconici...",
     "url": "https://it.wikipedia.org/wiki/Cattedrale_di_San_Lorenzo_%28Genova%29",
     "subsections": [],
-    "exam_id": "I.48"
+    "exam_id": "I.48",
+    "pdf": "SCHEDE STUDIO\\LIGURIA\\scheda_san_lorenzo_genova.pdf"
   },
   {
     "name": "Manarola",
@@ -962,7 +1004,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_delle_Cinque_Terre",
     "subsections": [],
-    "exam_id": "I.49"
+    "exam_id": "I.49",
+    "pdf": "SCHEDE STUDIO\\LIGURIA\\scheda_cinque_terre.pdf"
   },
   {
     "name": "Centro storico di Genova e Strade Nuove dei Rolli",
@@ -988,7 +1031,8 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Piazza Vecchia (Bergamo).",
     "url": "https://it.wikipedia.org/wiki/Piazza_Vecchia_%28Bergamo%29",
     "subsections": [],
-    "exam_id": "I.51"
+    "exam_id": "I.51",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_piazza_vecchia_bergamo.pdf"
   },
   {
     "name": "Duomo di Modena",
@@ -1001,7 +1045,8 @@ const locationsData = [
     "extract": "Il duomo di Modena, oppure Cattedrale di Modena, il cui nome ufficiale è cattedrale di san Geminiano, è il principale luogo di culto della città di Modena, chiesa madre dell'arcidiocesi di Modena-Nonantola. Capolavoro dello stile romanico, la cattedrale...",
     "url": "https://it.wikipedia.org/wiki/Duomo_di_Modena",
     "subsections": [],
-    "exam_id": "I.52"
+    "exam_id": "I.52",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_modena.pdf"
   },
   {
     "name": "Duomo di Monreale",
@@ -1014,7 +1059,8 @@ const locationsData = [
     "extract": "Il duomo di Monreale, altresì noto come cattedrale di Santa Maria Nuova, si trova a Monreale, nella città metropolitana di Palermo, ed è la cattedrale dell'omonima arcidiocesi.\nCostruita a partire dal 1172 per volere di Guglielmo II d'Altavilla, re di...",
     "url": "https://it.wikipedia.org/wiki/Duomo_di_Monreale",
     "subsections": [],
-    "exam_id": "I.52"
+    "exam_id": "I.52",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_palermo_arabo_normanna.pdf"
   },
   {
     "name": "Certosa di Pavia",
@@ -1053,7 +1099,8 @@ const locationsData = [
     "extract": "Sabbioneta (Sabiùnèda in dialetto casalasco-viadanese) è un comune italiano di 4 090 abitanti della provincia di Mantova in Lombardia. Insieme a Mantova nel 2008 è stata dichiarata dall'UNESCO Patrimonio dell'umanità. Fa parte del circuito dei Borghi...",
     "url": "https://it.wikipedia.org/wiki/Sabbioneta",
     "subsections": [],
-    "exam_id": "I.55"
+    "exam_id": "I.55",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_mantova_sabbioneta.pdf"
   },
   {
     "name": "Mantova e Sabbioneta: Palazzo Ducale e città ideale rinascimentale",
@@ -1118,7 +1165,8 @@ const locationsData = [
     "extract": "Le grotte di Frasassi sono delle grotte carsiche sotterranee che si trovano nel territorio del comune di Genga, in provincia di Ancona. L'insieme delle grotte ricade all'interno del Parco naturale regionale della Gola della Rossa e di Frasassi.\nIl complesso...",
     "url": "https://it.wikipedia.org/wiki/Grotte_di_Frasassi",
     "subsections": [],
-    "exam_id": "I.59"
+    "exam_id": "I.59",
+    "pdf": "SCHEDE STUDIO\\MARCHE\\scheda_frasassi.pdf"
   },
   {
     "name": "Palazzo Ducale (Mantova)",
@@ -1144,7 +1192,8 @@ const locationsData = [
     "extract": "Il Palazzo Ducale è il principale monumento della città di Urbino ed uno dei più interessanti esempi artistico-architettonici del Rinascimento italiano. È sede della Galleria nazionale delle Marche e del Museo del lapidario.\nIl palazzo, di proprietà dello...",
     "url": "https://it.wikipedia.org/wiki/Palazzo_Ducale_%28Urbino%29",
     "subsections": [],
-    "exam_id": "I.60"
+    "exam_id": "I.60",
+    "pdf": "SCHEDE STUDIO\\MARCHE\\scheda_urbino.pdf"
   },
   {
     "name": "Parco nazionale dei Monti Sibillini",
@@ -1157,7 +1206,8 @@ const locationsData = [
     "extract": "Il parco nazionale dei Monti Sibillini è un parco nazionale che tutela l'ambiente naturale del massiccio montuoso omonimo estendendosi tra le regioni di Marche e Umbria, suddiviso su quattro province.",
     "url": "https://it.wikipedia.org/wiki/Parco_nazionale_dei_Monti_Sibillini",
     "subsections": [],
-    "exam_id": "I.61"
+    "exam_id": "I.61",
+    "pdf": "SCHEDE STUDIO\\MARCHE\\scheda_sibillini.pdf"
   },
   {
     "name": "Piazza del Popolo (Ascoli Piceno)",
@@ -1170,7 +1220,8 @@ const locationsData = [
     "extract": "Piazza del Popolo è una nota piazza in stile rinascimentale della città di Ascoli Piceno. Deve la sua denominazione al Palazzo dei Capitani del Popolo, uno dei principali edifici storici che, con la sua medioevale torre merlata, occupa la parte centrale...",
     "url": "https://it.wikipedia.org/wiki/Piazza_del_Popolo_%28Ascoli_Piceno%29",
     "subsections": [],
-    "exam_id": "I.62"
+    "exam_id": "I.62",
+    "pdf": "SCHEDE STUDIO\\MARCHE\\scheda_ascoli_piceno.pdf"
   },
   {
     "name": "Rocca di Gradara",
@@ -1183,7 +1234,8 @@ const locationsData = [
     "extract": "Il castello di Gradara è il complesso che sorge sulla sommità di una collina nel comune di Gradara, in provincia di Pesaro e Urbino, nelle Marche, costituito da un castello-fortezza medievale (la rocca) e dall'adiacente borgo storico, protetto da una...",
     "url": "https://it.wikipedia.org/wiki/Castello_di_Gradara",
     "subsections": [],
-    "exam_id": "I.63"
+    "exam_id": "I.63",
+    "pdf": "SCHEDE STUDIO\\MARCHE\\scheda_gradara.pdf"
   },
   {
     "name": "Santuario della Santa Casa",
@@ -1209,7 +1261,8 @@ const locationsData = [
     "extract": "Saepinum è un'area archeologica di epoca romana ubicata nella regione Molise, in provincia di Campobasso, e situata nella piana alle falde del Matese aperta sulla valle del fiume Tammaro. Il sito, localizzato lungo l'antichissimo tratturo Pescasseroli...",
     "url": "https://it.wikipedia.org/wiki/Saepinum",
     "subsections": [],
-    "exam_id": "I.65"
+    "exam_id": "I.65",
+    "pdf": "SCHEDE STUDIO\\MOLISE\\scheda_saepinum.pdf"
   },
   {
     "name": "Parco Archeologico di Saepinum-Altilia",
@@ -1222,7 +1275,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Saepinum-Altilia",
     "subsections": [],
-    "exam_id": "I.65"
+    "exam_id": "I.65",
+    "pdf": "SCHEDE STUDIO\\MOLISE\\scheda_saepinum.pdf"
   },
   {
     "name": "Mole Antonelliana",
@@ -1235,7 +1289,8 @@ const locationsData = [
     "extract": "<p>La <b>Mole Antonelliana</b> è un edificio monumentale di Torino, situato nel centro storico, simbolo della città e uno dei simboli d'Italia. Il nome deriva dall'imponente altezza, 167,5 metri, mentre il suo aggettivo deriva dall'architetto che la concepì, Alessandro Antonelli.\n</p><p>Iniziata nel 1863 quando Torino era capitale del neonato Regno d'Italia e completata in piena <i>Belle Époque</i> nel 1889 (lo stesso anno in cui venne poi inaugurata la torre Eiffel), fu l'edificio in muratura più alto del mondo fino al 1908 e venne definita da Friedrich Nietzsche \"forse l'opera architettonica più geniale mai realizzata\". Nel corso del XX secolo subì importanti ristrutturazioni con cemento armato e travi di acciaio, per cui essa non si può più considerare una struttura esclusivamente in muratura.\n</p><p>Per anni fu l'edificio più alto di Torino, superato oggi dal moderno Grattacielo della Regione Piemonte. Dal 2000 al suo interno ha sede il Museo nazionale del cinema.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Mole_Antonelliana",
     "subsections": [],
-    "exam_id": "I.66"
+    "exam_id": "I.66",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_mole_antonelliana.pdf"
   },
   {
     "name": "Parco naturale delle Alpi Marittime",
@@ -1248,7 +1303,8 @@ const locationsData = [
     "extract": "Il parco naturale delle Alpi Marittime è un'area naturale protetta del Piemonte. È adiacente al grande Parco nazionale del Mercantour in Francia.",
     "url": "https://it.wikipedia.org/wiki/Parco_naturale_delle_Alpi_Marittime",
     "subsections": [],
-    "exam_id": "I.67"
+    "exam_id": "I.67",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_alpi_marittime.pdf"
   },
   {
     "name": "La Valle di Susa e l'Anfiteatro e le Mura Romane della Città",
@@ -1274,7 +1330,8 @@ const locationsData = [
     "extract": "Venarìa Reale (AFI: /venaˈria reˈale/, La Venerìa Regia in piemontese) è un comune italiano di 31 992 abitanti della città metropolitana di Torino, in Piemonte, conurbato nell'area metropolitana torinese, a soli 10 km a nord-ovest dalla città di Torino.",
     "url": "https://it.wikipedia.org/wiki/Venaria_Reale",
     "subsections": [],
-    "exam_id": "I.69"
+    "exam_id": "I.69",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_venaria_reale.pdf"
   },
   {
     "name": "Langhe-Roero e Monferrato",
@@ -1300,7 +1357,8 @@ const locationsData = [
     "extract": "La Val di Susa (Valsusa in piemontese) è una valle alpina situata nella parte occidentale del Piemonte, a ponente di Torino, confinante con la Francia a ovest: nonostante sia interamente appartenente al bacino idrografico del Po, e dunque alla regione...",
     "url": "https://it.wikipedia.org/wiki/Val_di_Susa",
     "subsections": [],
-    "exam_id": "I.71"
+    "exam_id": "I.71",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_valle_susa.pdf"
   },
   {
     "name": "I Trulli di Alberobello",
@@ -1313,7 +1371,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/I_Trulli_di_Alberobello",
     "subsections": [],
-    "exam_id": "I.72"
+    "exam_id": "I.72",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_trulli_alberobello.pdf"
   },
   {
     "name": "Basilica di San Nicola",
@@ -1326,7 +1385,8 @@ const locationsData = [
     "extract": "La basilica di San Nicola, nel cuore della città vecchia di Bari, è un importante edificio di culto della Chiesa cattolica, tra i principali luoghi dell'ecumenismo tra le Chiese cristiane.\nCostituisce uno degli esempi più significativi di architettura...",
     "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Nicola",
     "subsections": [],
-    "exam_id": "I.73"
+    "exam_id": "I.73",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_bari_san_nicola.pdf"
   },
   {
     "name": "Santuario di San Pio da Pietrelcina",
@@ -1338,7 +1398,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Chiesa_San_Pio_da_Pietrelcina.JPG",
     "extract": "<p>La <b>chiesa di San Pio da Pietrelcina</b>, anche conosciuta come <b>santuario di san Pio</b>, è un luogo di culto religioso cattolico di San Giovanni Rotondo, in provincia di Foggia, nel territorio dell'arcidiocesi di Manfredonia-Vieste-San Giovanni Rotondo, dedicato a Padre Pio da Pietrelcina.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Santuario_di_San_Pio_da_Pietrelcina",
-    "exam_id": "I.74"
+    "exam_id": "I.74",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_san_pio.pdf"
   },
   {
     "name": "Castel del Monte",
@@ -1351,7 +1412,8 @@ const locationsData = [
     "extract": "Castel del Monte è un castello del XIII secolo, fatto costruire da Federico II di Svevia, imperatore del Sacro Romano Impero e re di Sicilia. È stato costruito sulla sommità di una collina a 539 metri s.l.m nell'altopiano pugliese delle Murge settentrionali...",
     "url": "https://it.wikipedia.org/wiki/Castel_del_Monte",
     "subsections": [],
-    "exam_id": "I.75"
+    "exam_id": "I.75",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_castel_del_monte.pdf"
   },
   {
     "name": "Castello Estense",
@@ -1364,7 +1426,8 @@ const locationsData = [
     "extract": "Il Castello Estense, noto anche come Castello di San Michele, è il monumento più rappresentativo della città di Ferrara. Si trova al centro della città rinascimentale e con le sue quattro torri permette una vista panoramica sull'intero territorio. La...",
     "url": "https://it.wikipedia.org/wiki/Castello_Estense",
     "subsections": [],
-    "exam_id": "I.76"
+    "exam_id": "I.76",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ferrara.pdf"
   },
   {
     "name": "Castello normanno-svevo (Bari)",
@@ -1390,7 +1453,8 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Castello Aragonese (Otranto).",
     "url": "https://it.wikipedia.org/wiki/Castello_Aragonese_%28Otranto%29",
     "subsections": [],
-    "exam_id": "I.77"
+    "exam_id": "I.77",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_castello_otranto.pdf"
   },
   {
     "name": "Sacra di San Michele",
@@ -1403,7 +1467,8 @@ const locationsData = [
     "extract": "La Sacra di San Michele, o più propriamente abbazia di San Michele della Chiusa, localmente chiamata anche Sagra di San Michele, è un complesso architettonico arroccato sulla vetta del monte Pirchiriano, all'imbocco della val di Susa, nella Città metropolitana...",
     "url": "https://it.wikipedia.org/wiki/Sacra_di_San_Michele",
     "subsections": [],
-    "exam_id": "I.78"
+    "exam_id": "I.78",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_sacra_san_michele.pdf"
   },
   {
     "name": "Santuario di San Michele Arcangelo (Monte Sant'Angelo)",
@@ -1416,7 +1481,8 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Santuario di San Michele Arcangelo (Monte Sant'Angelo).",
     "url": "https://it.wikipedia.org/wiki/Santuario_di_San_Michele_Arcangelo_%28Monte_Sant%27Angelo%29",
     "subsections": [],
-    "exam_id": "I.79"
+    "exam_id": "I.79",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_monte_sant_angelo.pdf"
   },
   {
     "name": "Tomba dei Giganti di Coddu Vecchiu e Complesso nuragico La Prisgiona",
@@ -1455,7 +1521,8 @@ const locationsData = [
     "extract": "Il santuario nuragico di Santa Cristina è un'area archeologica situata nel territorio del comune di Paulilatino, in provincia di Oristano, nella Sardegna centro-occidentale e nella parte meridionale dell'altopiano di Abbasanta. La località prende il nome...",
     "url": "https://it.wikipedia.org/wiki/Santuario_nuragico_di_Santa_Cristina",
     "subsections": [],
-    "exam_id": "I.82"
+    "exam_id": "I.82",
+    "pdf": "SCHEDE STUDIO\\SARDEGNA\\scheda_santuari_nuragici.pdf"
   },
   {
     "name": "Giganti di monte Prama",
@@ -1468,7 +1535,8 @@ const locationsData = [
     "extract": "I Giganti di Mont'e Prama (Sos gigantes de Mont’e Prama in lingua sarda) sono antiche sculture risalenti alla Civiltà nuragica ritrovate casualmente nel marzo del 1974 in località Mont'e Prama nel Sinis di Cabras, nella Sardegna centro-occidentale. Sono...",
     "url": "https://it.wikipedia.org/wiki/Giganti_di_Mont%27e_Prama",
     "subsections": [],
-    "exam_id": "I.83"
+    "exam_id": "I.83",
+    "pdf": "SCHEDE STUDIO\\SARDEGNA\\scheda_monte_prama.pdf"
   },
   {
     "name": "Modica",
@@ -1481,7 +1549,8 @@ const locationsData = [
     "extract": "Modica (in siciliano Mòdica e Muòrica in dialetto modicano) è un comune italiano di 53 606 abitanti del libero consorzio comunale di Ragusa, in Sicilia.\nCittà di origini neolitiche, fino al XIX secolo è stata capitale della contea omonima, che ha esercitato...",
     "url": "https://it.wikipedia.org/wiki/Modica",
     "subsections": [],
-    "exam_id": "I.83"
+    "exam_id": "I.83",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_modica.pdf"
   },
   {
     "name": "Siti fenicio-punici e romani della Sardegna: Tharros, Nora e Monte Sirai",
@@ -1494,7 +1563,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Siti_fenicio-punici_e_romani_della_Sardegna%3A_Tharros%2C_Nora_e_Monte_Sirai",
     "subsections": [],
-    "exam_id": "I.84"
+    "exam_id": "I.84",
+    "pdf": "SCHEDE STUDIO\\SARDEGNA\\scheda_fenicio_punici.pdf"
   },
   {
     "name": "Duomo di Cefalù",
@@ -1533,7 +1603,8 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Noto.",
     "url": "https://it.wikipedia.org/wiki/Noto",
     "subsections": [],
-    "exam_id": "I.87"
+    "exam_id": "I.87",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_noto.pdf"
   },
   {
     "name": "Centro storico di Noto",
@@ -1559,7 +1630,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Palermo_arabo-normanna_e_Cattedrali_di_Cefal%C3%B9_e_Monreale",
     "subsections": [],
-    "exam_id": "I.88"
+    "exam_id": "I.88",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_palermo_arabo_normanna.pdf"
   },
   {
     "name": "Parco archeologico della Neapolis",
@@ -1572,7 +1644,8 @@ const locationsData = [
     "extract": "Il Parco archeologico della Neapolis è un'area naturale colma di reperti archeologici appartenenti a più epoche della storia siracusana. \nPer la quantità e la rilevanza dei suoi monumenti è considerata una delle zone archeologiche più importanti della...",
     "url": "https://it.wikipedia.org/wiki/Parco_archeologico_della_Neapolis",
     "subsections": [],
-    "exam_id": "I.89"
+    "exam_id": "I.89",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_siracusa.pdf"
   },
   {
     "name": "Parco dell'Etna",
@@ -1598,7 +1671,8 @@ const locationsData = [
     "extract": "Il cosiddetto Tempietto longobardo (in friulano Templut langobart; in sloveno Langobardski tempelj), noto anche come oratorio di Santa Maria in Valle, si trova a Cividale del Friuli (Borgo Brossana), in provincia di Udine. Collocato all'interno del monastero...",
     "url": "https://it.wikipedia.org/wiki/Tempietto_longobardo",
     "subsections": [],
-    "exam_id": "I.91"
+    "exam_id": "I.91",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_cividale.pdf"
   },
   {
     "name": "Tempio e Teatro di Segesta",
@@ -1611,7 +1685,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Tempio_e_Teatro_di_Segesta",
     "subsections": [],
-    "exam_id": "I.91"
+    "exam_id": "I.91",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_segesta.pdf"
   },
   {
     "name": "Selinunte",
@@ -1624,7 +1699,8 @@ const locationsData = [
     "extract": "Selinunte (in greco antico Σελινοῦς?, Selinùs; in latino Selinus) era un'antica città siceliota situata sulla costa sud-occidentale della Sicilia, nei pressi della foce del Belice e in corrispondenza dell'odierna Castelvetrano, in provincia di Trapani...",
     "url": "https://it.wikipedia.org/wiki/Selinunte",
     "subsections": [],
-    "exam_id": "I.92"
+    "exam_id": "I.92",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_selinunte.pdf"
   },
   {
     "name": "Parco Archeologico di Selinunte",
@@ -1637,7 +1713,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Selinunte",
     "subsections": [],
-    "exam_id": "I.92"
+    "exam_id": "I.92",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_selinunte.pdf"
   },
   {
     "name": "Teatro antico di Taormina",
@@ -1650,7 +1727,8 @@ const locationsData = [
     "extract": "Il teatro antico di Taormina è il secondo teatro antico per dimensioni in Sicilia, dopo il teatro greco di Siracusa.",
     "url": "https://it.wikipedia.org/wiki/Teatro_antico_di_Taormina",
     "subsections": [],
-    "exam_id": "I.93"
+    "exam_id": "I.93",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_taormina.pdf"
   },
   {
     "name": "Anfiteatro romano di Susa",
@@ -1663,7 +1741,8 @@ const locationsData = [
     "extract": "Susa (Susa in piemontese; Souiza, Suèiza, Suza o Susa in francoprovenzale, Suse in francese, Segusium in latino) è un comune italiano di 5 769 abitanti della città metropolitana di Torino in Piemonte.\nDa millenni crocevia dei diversi itinerari transalpini...",
     "url": "https://it.wikipedia.org/wiki/Susa_%28Italia%29",
     "subsections": [],
-    "exam_id": "I.93"
+    "exam_id": "I.93",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_valle_susa.pdf"
   },
   {
     "name": "Valle dei Templi",
@@ -1676,7 +1755,8 @@ const locationsData = [
     "extract": "La Valle dei Templi è un parco archeologico della Sicilia caratterizzato dall'eccezionale stato di conservazione e da una serie di importanti templi dorici del periodo ellenico. Corrisponde all'antica Akragas, monumentale nucleo originario della città...",
     "url": "https://it.wikipedia.org/wiki/Valle_dei_Templi",
     "subsections": [],
-    "exam_id": "I.94"
+    "exam_id": "I.94",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_valle_templi.pdf"
   },
   {
     "name": "Villa del Casale",
@@ -1689,7 +1769,8 @@ const locationsData = [
     "extract": "La Villa romana del Casale è un edificio abitativo tardo antico, popolarmente definito villa nonostante non abbia i caratteri della villa romana extraurbana quanto piuttosto del palazzo urbano imperiale, i cui resti sono situati a circa quattro chilometri...",
     "url": "https://it.wikipedia.org/wiki/Villa_romana_del_Casale",
     "subsections": [],
-    "exam_id": "I.95"
+    "exam_id": "I.95",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_villa_casale.pdf"
   },
   {
     "name": "Basilica di Santa Maria Maggiore (Bergamo)",
@@ -1715,7 +1796,8 @@ const locationsData = [
     "extract": "La basilica di Santa Maria dei Restauri è una delle più importanti chiese di Firenze e sorge sull'omonima piazza. Se Santa Croce era ed è un centro antichissimo di cultura francescana e Santo Spirito ospitava l'ordine agostiniano, Santa Maria Novella...",
     "url": "https://it.wikipedia.org/wiki/Basilica_di_Santa_Maria_Novella",
     "subsections": [],
-    "exam_id": "I.96"
+    "exam_id": "I.96",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_santa_maria_novella.pdf"
   },
   {
     "name": "Duomo e Battistero",
@@ -1741,7 +1823,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Naturale_Regionale_delle_Alpi_Apuane",
     "subsections": [],
-    "exam_id": "I.98"
+    "exam_id": "I.98",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_alpi_apuane.pdf"
   },
   {
     "name": "Piazza dei Miracoli",
@@ -1754,7 +1837,8 @@ const locationsData = [
     "extract": "La piazza del Duomo è il centro artistico e turistico più importante di Pisa. Annoverata fra i Patrimoni dell'Umanità dall'UNESCO dal 1987, vi si possono ammirare i quattro monumenti che formano il centro della vita religiosa cittadina, detti miracoli...",
     "url": "https://it.wikipedia.org/wiki/Piazza_dei_Miracoli",
     "subsections": [],
-    "exam_id": "I.99"
+    "exam_id": "I.99",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_piazza_miracoli.pdf"
   },
   {
     "name": "Ponte Vecchio e Palazzo Vecchio",
@@ -1767,7 +1851,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Ponte_Vecchio_e_Palazzo_Vecchio",
     "subsections": [],
-    "exam_id": "I.100"
+    "exam_id": "I.100",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_ponte_palazzo_vecchio.pdf"
   },
   {
     "name": "Riserva Naturale della Maremma",
@@ -1780,7 +1865,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Riserva_Naturale_della_Maremma",
     "subsections": [],
-    "exam_id": "I.101"
+    "exam_id": "I.101",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_maremma.pdf"
   },
   {
     "name": "Torri di San Gimignano",
@@ -1793,7 +1879,8 @@ const locationsData = [
     "extract": "San Gimignano (AFI: /sanʤimiɲˈɲano/) è un comune italiano di 7 464 abitanti della provincia di Siena in Toscana.\nPer la caratteristica architettura medievale del suo centro storico, è stato dichiarato patrimonio dell'umanità dall'UNESCO. Il sito di San...",
     "url": "https://it.wikipedia.org/wiki/San_Gimignano",
     "subsections": [],
-    "exam_id": "I.102"
+    "exam_id": "I.102",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_san_gimignano.pdf"
   },
   {
     "name": "Santuario della Verna",
@@ -1806,7 +1893,8 @@ const locationsData = [
     "extract": "Il santuario francescano della Verna, situato a pochi chilometri da Chiusi della Verna, in provincia di Arezzo e diocesi di Arezzo-Cortona-Sansepolcro, all'interno del parco nazionale delle Foreste Casentinesi, Monte Falterona e Campigna, è uno dei più...",
     "url": "https://it.wikipedia.org/wiki/Santuario_della_Verna",
     "subsections": [],
-    "exam_id": "I.103"
+    "exam_id": "I.103",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_verna_camaldoli.pdf"
   },
   {
     "name": "Monastero di Camaldoli",
@@ -1819,7 +1907,8 @@ const locationsData = [
     "extract": "Il monastero di Camaldoli è un complesso monastico situato a tre chilometri dall'Eremo di Camaldoli, nel comune di Poppi. Nel luglio del 1943 ospitò i lavori che portarono alla redazione del Codice di Camaldoli.",
     "url": "https://it.wikipedia.org/wiki/Monastero_di_Camaldoli",
     "subsections": [],
-    "exam_id": "I.103"
+    "exam_id": "I.103",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_verna_camaldoli.pdf"
   },
   {
     "name": "Area Archeologica e Museo Archeologico Nazionale di Cosa",
@@ -1845,7 +1934,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Citt%C3%A0_Etrusca_di_Chiusi",
     "subsections": [],
-    "exam_id": "I.105"
+    "exam_id": "I.105",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_chiusi.pdf"
   },
   {
     "name": "Duomo di Siena",
@@ -1858,7 +1948,8 @@ const locationsData = [
     "extract": "Il duomo di Siena, ufficialmente cattedrale metropolitana di Santa Maria Assunta, è il principale luogo di culto cattolico di Siena, in Toscana, sede episcopale dell'arcidiocesi metropolitana di Siena-Colle di Val d'Elsa-Montalcino; l'edificio è situato...",
     "url": "https://it.wikipedia.org/wiki/Duomo_di_Siena",
     "subsections": [],
-    "exam_id": "I.106"
+    "exam_id": "I.106",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_siena.pdf"
   },
   {
     "name": "Chianti, Pienza, Val d’Orcia e paesaggi vitivinicoli della Toscana",
@@ -1884,7 +1975,8 @@ const locationsData = [
     "extract": "Le cappelle medicee, costruite quale luogo di sepoltura della famiglia Medici, sono oggi un museo statale di Firenze, ricavato da alcune aree della basilica di San Lorenzo. Oggi afferisce alla gestione museale indipendente del gruppo del Museo del Bargello.",
     "url": "https://it.wikipedia.org/wiki/Cappelle_medicee",
     "subsections": [],
-    "exam_id": "I.108"
+    "exam_id": "I.108",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_cappelle_medicee.pdf"
   },
   {
     "name": "Lago di Braies",
@@ -1897,7 +1989,8 @@ const locationsData = [
     "extract": "Il lago di Braies (Pragser Wildsee in tedesco) è un lago alpino situato in Val di Braies (una valle laterale alla Val Pusteria) a 1.496 m s.l.m.  nel comune di Braies (BZ), a circa 97 km da Bolzano.",
     "url": "https://it.wikipedia.org/wiki/Lago_di_Braies",
     "subsections": [],
-    "exam_id": "I.109"
+    "exam_id": "I.109",
+    "pdf": "SCHEDE STUDIO\\TRENTINO ALTO ADIGE\\scheda_dolomiti_braies.pdf"
   },
   {
     "name": "Paestum",
@@ -1910,7 +2003,8 @@ const locationsData = [
     "extract": "Paestum fu un'antica città della Magna Grecia, chiamata dai greci Poseidonia in onore di Poseidone, ma devotissima anche ad Atena ed Era. Dopo la sua conquista da parte dei Lucani venne chiamata Paistom, per poi assumere, sotto i Romani, il nome di Paestum...",
     "url": "https://it.wikipedia.org/wiki/Paestum",
     "subsections": [],
-    "exam_id": "I.110"
+    "exam_id": "I.110",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_paestum.pdf"
   },
   {
     "name": "Pienza",
@@ -1923,7 +2017,8 @@ const locationsData = [
     "extract": "Pienza è un comune italiano di 1 902 abitanti della provincia di Siena in Toscana situato in Val d'Orcia.\nIl suo centro storico è stato dichiarato dall'UNESCO patrimonio dell'umanità nel 1996.",
     "url": "https://it.wikipedia.org/wiki/Pienza",
     "subsections": [],
-    "exam_id": "I.110"
+    "exam_id": "I.110",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_val_orcia.pdf"
   },
   {
     "name": "Piazza Duomo",
@@ -1936,7 +2031,8 @@ const locationsData = [
     "extract": "",
     "url": "https://it.wikipedia.org/wiki/Piazza_Duomo",
     "subsections": [],
-    "exam_id": "I.110"
+    "exam_id": "I.110",
+    "pdf": "SCHEDE STUDIO\\TRENTINO ALTO ADIGE\\scheda_piazza_duomo_trento.pdf"
   },
   {
     "name": "Basilica di San Francesco d'Assisi",
@@ -1961,7 +2057,8 @@ const locationsData = [
     "extract": "Il duomo di Trani, il cui nome ufficiale è Basilica cattedrale di Maria Santissima Assunta, comunemente detta di San Nicola Pellegrino, è il principale luogo di culto cattolico della città di Trani, in Puglia, chiesa madre dell'arcidiocesi di Trani-Barletta...",
     "url": "https://it.wikipedia.org/wiki/Cattedrale_di_Trani",
     "subsections": [],
-    "exam_id": "I.112"
+    "exam_id": "I.112",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_cattedrale_trani.pdf"
   },
   {
     "name": "Carsulae",
@@ -1974,7 +2071,8 @@ const locationsData = [
     "extract": "Carsulae era un'antica città di epoca romana posta in Umbria lungo il ramo occidentale della via Flaminia, tra Narnia (oggi Narni) e Mevania (oggi Bevagna). Si trova nel comune di Terni, a poca distanza da San Gemini. \nAbbandonata a partire dal V o VI...",
     "url": "https://it.wikipedia.org/wiki/Carsulae",
     "subsections": [],
-    "exam_id": "I.113"
+    "exam_id": "I.113",
+    "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_carsulae.pdf"
   },
   {
     "name": "Parco Archeologico di Carsulae",
@@ -1987,7 +2085,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Carsulae",
     "subsections": [],
-    "exam_id": "I.113"
+    "exam_id": "I.113",
+    "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_carsulae.pdf"
   },
   {
     "name": "Duomo di Milano",
@@ -2000,7 +2099,8 @@ const locationsData = [
     "extract": "Il Duomo di Milano (in milanese Dòmm de Milan, AFI: [ˈdɔm de miˈlãː]), ufficialmente Cattedrale Metropolitana della Natività della Beata Vergine Maria, è la cattedrale dell'arcidiocesi di Milano e monumento nazionale italiano. Simbolo del capoluogo lombardo...",
     "url": "https://it.wikipedia.org/wiki/Duomo_di_Milano",
     "subsections": [],
-    "exam_id": "I.114"
+    "exam_id": "I.114",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_duomo_milano.pdf"
   },
   {
     "name": "Duomo di Orvieto",
@@ -2013,7 +2113,8 @@ const locationsData = [
     "extract": "La basilica cattedrale di Santa Maria Assunta è il principale luogo di culto cattolico di Orvieto, in provincia di Terni, chiesa madre della diocesi di Orvieto-Todi e capolavoro dell'architettura gotica-romanica dell'Italia Centrale. Nel gennaio del 1889...",
     "url": "https://it.wikipedia.org/wiki/Duomo_di_Orvieto",
     "subsections": [],
-    "exam_id": "I.114"
+    "exam_id": "I.114",
+    "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_duomo_orvieto.pdf"
   },
   {
     "name": "Cascata delle Marmore",
@@ -2026,7 +2127,8 @@ const locationsData = [
     "extract": "La cascata delle Marmore è la più alta cascata artificiale d'Europa e tra le più alte del mondo, potendo contare su un dislivello complessivo di 165 m suddiviso in tre salti. A flusso controllato, è formata dal Velino e dal Nera, affluenti del Tevere...",
     "url": "https://it.wikipedia.org/wiki/Cascata_delle_Marmore",
     "subsections": [],
-    "exam_id": "I.115"
+    "exam_id": "I.115",
+    "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_marmore.pdf"
   },
   {
     "name": "Parco nazionale del Gran Paradiso",
@@ -2039,7 +2141,8 @@ const locationsData = [
     "extract": "Il parco nazionale Gran Paradiso (in francese parc national du Grand-Paradis) è il parco nazionale più antico d'Italia, istituito il 3 dicembre del 1922, situato a cavallo delle regioni Valle d'Aosta e Piemonte, attorno al massiccio del Gran Paradiso...",
     "url": "https://it.wikipedia.org/wiki/Parco_nazionale_del_Gran_Paradiso",
     "subsections": [],
-    "exam_id": "I.116"
+    "exam_id": "I.116",
+    "pdf": "SCHEDE STUDIO\\VALLE D_AOSTA\\scheda_gran_paradiso.pdf"
   },
   {
     "name": "Castello di Quart",
@@ -2052,7 +2155,8 @@ const locationsData = [
     "extract": "<p>Il <b>castello di Quart</b> è uno dei castelli della Valle d'Aosta, attualmente in restauro, posto nel comune di Quart, in Valle d'Aosta.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Castello_di_Quart",
     "subsections": [],
-    "exam_id": "I.117"
+    "exam_id": "I.117",
+    "pdf": "SCHEDE STUDIO\\VALLE D_AOSTA\\scheda_castello_quart.pdf"
   },
   {
     "name": "Duomo, Criptoportico di Vicenza e Basilica Palladiana",
@@ -2065,7 +2169,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Duomo%2C_Criptoportico_di_Vicenza_e_Basilica_Palladiana",
     "subsections": [],
-    "exam_id": "I.118"
+    "exam_id": "I.118",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_vicenza.pdf"
   },
   {
     "name": "Basilica di San Zeno",
@@ -2130,7 +2235,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Palazzo_Ducale_%28Venezia%29"
       }
     ],
-    "exam_id": "I.121"
+    "exam_id": "I.121",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_piazza_san_marco.pdf"
   },
   {
     "name": "Laguna di Venezia, Canal Grande, Murano, Burano e Torcello",
@@ -2156,7 +2262,8 @@ const locationsData = [
     "extract": "Le colline del Prosecco di Conegliano e Valdobbiadene, o semplicemente colline di Conegliano e Valdobbiadene, sono un gruppo di colline comprese nella provincia di Treviso, in Veneto, a sud della Catena Cavallo-Visentin, caratterizzate dal territorio...",
     "url": "https://it.wikipedia.org/wiki/Colline_del_Prosecco_di_Conegliano_e_Valdobbiadene",
     "subsections": [],
-    "exam_id": "I.123"
+    "exam_id": "I.123",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_prosecco.pdf"
   },
   {
     "name": "Colosseo",
@@ -2169,7 +2276,8 @@ const locationsData = [
     "extract": "Il Colosseo, originariamente conosciuto come Anfiteatro Flavio (in latino Amphitheatrum Flavium) o semplicemente Amphitheatrum (in italiano Anfiteatro), era il più grande anfiteatro romano del mondo (in grado di contenere un  numero di spettatori stimato...",
     "url": "https://it.wikipedia.org/wiki/Colosseo",
     "subsections": [],
-    "exam_id": "I.123"
+    "exam_id": "I.123",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_colosseo.pdf"
   },
   {
     "name": "Ville palladiane del Veneto",
@@ -2182,7 +2290,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Ville_palladiane_del_Veneto",
     "subsections": [],
-    "exam_id": "I.124"
+    "exam_id": "I.124",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_ville_palladiane.pdf"
   },
   {
     "name": "Museo archeologico nazionale di Aquileia",
@@ -2195,7 +2304,8 @@ const locationsData = [
     "extract": "Il Museo archeologico nazionale di Aquileia (UD) inaugurato nel 1882, è uno dei maggiori musei al mondo sulla Civiltà romana. La sede espositiva si trova presso la villa Cassis Faraone e comprende importanti collezioni, statue, suppellettili domestiche...",
     "url": "https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Aquileia",
     "subsections": [],
-    "exam_id": "II.1"
+    "exam_id": "II.1",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_aquileia.pdf"
   },
   {
     "name": "Centro storico monumentale di Napoli",
@@ -2239,7 +2349,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Palazzo_Reale_%28Napoli%29"
       }
     ],
-    "exam_id": "II.2"
+    "exam_id": "II.2",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_centro_storico_napoli.pdf"
   },
   {
     "name": "Museo di Capodimonte",
@@ -2251,7 +2362,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Reggia_di_Capodimonte_1.JPG",
     "extract": "<p>Il <b>Museo nazionale di Capodimonte</b> è un museo di Napoli, ubicato all'interno della reggia omonima, nella località di Capodimonte: ospita gallerie di arte antica, una di arte contemporanea e un appartamento storico.\n</p><p>È stato ufficialmente inaugurato nel 1957, anche se le sale della reggia hanno ospitato opere d'arte già a partire dal 1758. Conserva prevalentemente pitture, distribuite largamente nelle due collezioni principali, ossia quella Farnese, di cui fanno parte alcuni grandi nomi della pittura italiana e internazionale, e quella della Galleria Napoletana, che raccoglie opere provenienti da chiese della città e dei suoi dintorni, trasportate a Capodimonte a scopo cautelativo dalle soppressioni in poi. Importante anche la collezione di arte contemporanea, unica nel suo genere in Italia, in cui spicca <i>Vesuvius</i> di Andy Warhol.\n</p><p>Nel 2017 il museo ha fatto registrare 262 440 visitatori, collocandosi al 28º posto fra i 30 musei statali più visitati.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Museo_di_Capodimonte",
-    "exam_id": "II.3"
+    "exam_id": "II.3",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_capodimonte.pdf"
   },
   {
     "name": "Museo Nazionale di Ravenna",
@@ -2283,7 +2395,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Miniatura"
       }
     ],
-    "exam_id": "II.4"
+    "exam_id": "II.4",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ravenna_museo.pdf"
   },
   {
     "name": "Ostia Antica",
@@ -2296,7 +2409,8 @@ const locationsData = [
     "extract": "Ostia Antica è la trentacinquesima zona di Roma; è indicata con Z. XXXV.\nIl toponimo indica la zona urbanistica 13E del Municipio Roma X.",
     "url": "https://it.wikipedia.org/wiki/Ostia_Antica",
     "subsections": [],
-    "exam_id": "II.5"
+    "exam_id": "II.5",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_ostia_antica.pdf"
   },
   {
     "name": "Galleria Borghese",
@@ -2328,7 +2442,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Antonio_Canova"
       }
     ],
-    "exam_id": "II.6"
+    "exam_id": "II.6",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_galleria_borghese.pdf"
   },
   {
     "name": "Castel Sant'Angelo",
@@ -2354,7 +2469,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Passetto_di_Borgo"
       }
     ],
-    "exam_id": "II.7"
+    "exam_id": "II.7",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_castel_sant_angelo.pdf"
   },
   {
     "name": "Galleria nazionale d'arte moderna e contemporanea",
@@ -2367,7 +2483,8 @@ const locationsData = [
     "extract": "La Galleria Nazionale d'Arte Moderna e Contemporanea è un museo statale italiano con sede a Roma.\nCustodisce la più completa collezione dedicata all'arte italiana e straniera dal XIX secolo a oggi. Tra dipinti, disegni, sculture e installazioni, le quasi...",
     "url": "https://it.wikipedia.org/wiki/Galleria_nazionale_d%27arte_moderna_e_contemporanea",
     "subsections": [],
-    "exam_id": "II.8"
+    "exam_id": "II.8",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_gnam.pdf"
   },
   {
     "name": "Museo nazionale romano",
@@ -2405,7 +2522,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Palazzo_Altemps"
       }
     ],
-    "exam_id": "II.9"
+    "exam_id": "II.9",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_museo_nazionale_romano.pdf"
   },
   {
     "name": "Museo Nazionale Etrusco di Villa Giulia",
@@ -2418,7 +2536,8 @@ const locationsData = [
     "extract": "<p>Il <b>Museo nazionale etrusco di Villa Giulia</b>, noto anche come <b>ETRU</b>, è un museo statale italiano dedicato alle civiltà etrusca e falisca ospitato negli ambienti di villa Giulia e villa Poniatowski a Roma. \nDi proprietà del Ministero della cultura esso è annoverato dal 2016 tra gli istituti museali dotati di autonomia speciale.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Museo_Nazionale_Etrusco_di_Villa_Giulia",
     "subsections": [],
-    "exam_id": "II.10"
+    "exam_id": "II.10",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_villa_giulia.pdf"
   },
   {
     "name": "Musei Vaticani",
@@ -2450,7 +2569,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Museo_Pio-Clementino"
       }
     ],
-    "exam_id": "II.11"
+    "exam_id": "II.11",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_musei_vaticani.pdf"
   },
   {
     "name": "Palazzo Barberini e Palazzo Corsini",
@@ -2476,7 +2596,8 @@ const locationsData = [
     "extract": "Il Palazzo Reale, o palazzo Stefano Balbi, è uno dei maggiori edifici storici di Genova, inserito fra i 42 Palazzi dei Rolli selezionati e dichiarati Patrimonio dell'umanità dall'UNESCO il 13 luglio 2006.\nÈ un polo museale costituito dalla dimora storica...",
     "url": "https://it.wikipedia.org/wiki/Palazzo_Reale_%28Genova%29",
     "subsections": [],
-    "exam_id": "II.13"
+    "exam_id": "II.13",
+    "pdf": "SCHEDE STUDIO\\LIGURIA\\scheda_palazzo_reale_genova.pdf"
   },
   {
     "name": "Palazzo Pitti",
@@ -2496,7 +2617,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Galleria_Palatina"
       }
     ],
-    "exam_id": "II.13"
+    "exam_id": "II.13",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_pitti_boboli_ville.pdf"
   },
   {
     "name": "Pinacoteca di Brera",
@@ -2528,7 +2650,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Raffaello_Sanzio"
       }
     ],
-    "exam_id": "II.14"
+    "exam_id": "II.14",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_brera.pdf"
   },
   {
     "name": "Cenacolo Vinciano",
@@ -2541,7 +2664,8 @@ const locationsData = [
     "extract": "<p>Il <i><b>Cenacolo</b></i>, noto anche come l'<i><b>Ultima Cena</b></i>, è un dipinto parietale, definito spesso impropriamente come un affresco, ottenuto con una tecnica mista \"a secco\" su intonaco (460×880 cm) di Leonardo da Vinci, databile al 1494-1498 e realizzato su commissione di Ludovico il Moro nel refettorio del convento adiacente al santuario di Santa Maria delle Grazie a Milano.\n</p><p>Si tratta della più celebre rappresentazione dell'Ultima Cena, capolavoro di Leonardo e del Rinascimento italiano in generale. Nonostante ciò, l'opera — a causa della singolare tecnica sperimentale utilizzata da Leonardo, incompatibile con l'umidità dell'ambiente — versa da secoli in un cattivo stato di conservazione, cui si è fatto fronte, per quanto possibile, nel corso di uno dei più lunghi restauri della storia, durato dal 1978 al 1999 con le tecniche più all'avanguardia del settore. In oltre 17 anni, l'Olivetti (società finanziatrice del progetto dal 1982 al 1999) sostenne per il restauro un costo di circa 7 miliardi di lire.\n</p><p>Dal dicembre 2014 il Ministero per i beni e le attività culturali gestisce il Museo del Cenacolo Vinciano tramite il Polo museale della Lombardia, nel dicembre 2019 divenuto Direzione regionale Musei. Nel 2019 è stato visitato da 445 728 persone, risultando essere il quindicesimo più visitato in Italia.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Cenacolo_Vinciano",
     "subsections": [],
-    "exam_id": "II.15"
+    "exam_id": "II.15",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_cenacolo.pdf"
   },
   {
     "name": "Museo Egizio (Torino)",
@@ -2567,7 +2691,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Tempio_di_Ellesija"
       }
     ],
-    "exam_id": "II.16"
+    "exam_id": "II.16",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_museo_egizio.pdf"
   },
   {
     "name": "Musei Capitolini",
@@ -2605,7 +2730,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Tabularium"
       }
     ],
-    "exam_id": "II.17"
+    "exam_id": "II.17",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_musei_capitolini.pdf"
   },
   {
     "name": "Musei Reali (Torino)",
@@ -2631,7 +2757,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Galleria_Sabauda"
       }
     ],
-    "exam_id": "II.17"
+    "exam_id": "II.17",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_musei_reali_torino.pdf"
   },
   {
     "name": "Museo archeologico nazionale di Taranto",
@@ -2644,7 +2771,8 @@ const locationsData = [
     "extract": "Il Museo Archeologico Nazionale di Taranto (MArTA) è un museo statale italiano. Espone una delle più grandi collezioni di manufatti risalenti all'epoca della Magna Grecia, tra cui i famosi ori di Taranto.\nÈ di proprietà del Ministero per i beni e le attività...",
     "url": "https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Taranto",
     "subsections": [],
-    "exam_id": "II.18"
+    "exam_id": "II.18",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_marta.pdf"
   },
   {
     "name": "Museo archeologico nazionale di Napoli",
@@ -2670,7 +2798,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Arte_egizia"
       }
     ],
-    "exam_id": "II.19"
+    "exam_id": "II.19",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_mann.pdf"
   },
   {
     "name": "Museo archeologico regionale Paolo Orsi",
@@ -2683,7 +2812,8 @@ const locationsData = [
     "extract": "Il museo archeologico regionale “Paolo Orsi” è un museo che ha sede a Siracusa, in un edificio del 1961 tra i più grandi in Europa per estensione degli spazi espositivi. Organizzato in sette settori e da una esposizione anche esterna, custodisce decine...",
     "url": "https://it.wikipedia.org/wiki/Museo_archeologico_regionale_Paolo_Orsi",
     "subsections": [],
-    "exam_id": "II.20"
+    "exam_id": "II.20",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_paolo_orsi.pdf"
   },
   {
     "name": "Galleria degli Uffizi",
@@ -2695,7 +2825,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Florence%2C_Italy_-_panoramio_%28125%29.jpg",
     "extract": "<p>La <b>Galleria degli Uffizi</b> è un museo statale di Firenze, che fa parte del complesso museale denominato Gallerie degli Uffizi e comprendente, oltre alla suddetta galleria, il Corridoio vasariano, le collezioni di Palazzo Pitti e il Giardino di Boboli, che insieme costituiscono per quantità e qualità delle opere raccolte uno dei più importanti musei del mondo.\n</p><p>Vi si trovano la più cospicua collezione esistente di Raffaello e Botticelli, oltre a nuclei principali di opere di Giotto, Tiziano, Pontormo, Bronzino, Andrea del Sarto, Caravaggio, Dürer, Rubens, Leonardo da Vinci ed altri ancora. Mentre a Palazzo Pitti si concentrano le opere pittoriche del Cinquecento e del Barocco, ma anche dell'Otto e Novecento italiano, il corridoio vasariano ospitava fino al 2018 parte della collezione di autoritratti (oltre 1 700), che dovrebbero essere poi inclusi nel percorso espositivo della Galleria delle Statue e delle Pitture, come in piccola parte già avviene.\n</p><p>Il museo ospita una raccolta di opere d'arte inestimabili, derivanti, come nucleo fondamentale, dalle collezioni dei Medici, arricchite nei secoli da lasciti, scambi e donazioni, tra cui spicca un fondamentale gruppo di opere religiose derivate dalle soppressioni di monasteri e conventi tra il XVIII e il XIX secolo. Divisa in varie sale allestite per scuole e stili in ordine cronologico, l'esposizione mostra opere dal XII al XVIII secolo, con la migliore collezione al mondo di opere del Rinascimento fiorentino. Di grande pregio sono anche la collezione di statuaria antica e soprattutto quella dei disegni e delle stampe che, conservata nel Gabinetto omonimo, è una delle più cospicue e importanti al mondo.\n</p><p>Nel 2024 ha registrato 5 294 968 visitatori, risultando il museo d'arte più visitato d'Italia. Il secondo se si considerano i Musei Vaticani, nel territorio della penisola italiana e all’interno di Roma, ma facenti parte della Città del Vaticano.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Galleria_degli_Uffizi",
-    "exam_id": "II.21"
+    "exam_id": "II.21",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_uffizi.pdf"
   },
   {
     "name": "Galleria dell'Accademia Firenze",
@@ -2707,7 +2838,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Firenze%2C_galleria_dell%27accademia%2C_tribuna_del_david_03.jpg",
     "extract": "<p><b>Galleria dell'Accademia</b> di Firenze è un museo statale italiano, sito in via Ricasoli accanto all'Accademia di belle arti.\n</p><p>La galleria espone il maggior numero di sculture di Michelangelo al mondo (ben sette), fra cui il celeberrimo <i>David</i>. All'interno del museo sono ospitate anche altre sezioni, fra cui una delle raccolte più vasta ed importante al mondo di opere pittoriche toscane a fondo oro, e il Museo degli strumenti musicali, dove sono esposti molti manufatti appartenenti alla collezione storica del Conservatorio Luigi Cherubini.\n</p><p>È di proprietà del Ministero della Cultura, che dal 2014 l'ha annoverata tra gli istituti museali dotati di autonomia speciale. Nel 2023 ha registrato 2.013.974 visitatori, risultando il secondo museo più visitato d'Italia.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Galleria_dell'Accademia_Firenze",
-    "exam_id": "II.22"
+    "exam_id": "II.22",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_accademia_firenze.pdf"
   },
   {
     "name": "Palazzo Pitti, Giardino di Boboli e Ville medicee della Toscana",
@@ -2745,7 +2877,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Alba_Fucens",
     "subsections": [],
-    "exam_id": "III.1"
+    "exam_id": "III.1",
+    "pdf": "SCHEDE STUDIO\\ABRUZZO\\scheda_alba_fucens.pdf"
   },
   {
     "name": "Sassi di Matera",
@@ -2758,7 +2891,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Sassi_di_Matera",
     "subsections": [],
-    "exam_id": "III.2"
+    "exam_id": "III.2",
+    "pdf": "SCHEDE STUDIO\\BASILICATA\\scheda_sassi_matera.pdf"
   },
   {
     "name": "Capo Colonna",
@@ -2771,7 +2905,8 @@ const locationsData = [
     "extract": "Capo Colonna (o Capocolonna) - noto in età coloniale (antica, classica ed ellenistica) come Capo Lacinio: Λακίνιον ἄκρον), e poi promontorium Lacinium in età romana) - è un promontorio sito otto chilometri a sud di Crotone, che costituisce la punta più...",
     "url": "https://it.wikipedia.org/wiki/Capo_Colonna",
     "subsections": [],
-    "exam_id": "III.3"
+    "exam_id": "III.3",
+    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_capo_colonna.pdf"
   },
   {
     "name": "Parco archeologico di Scolacium",
@@ -2796,7 +2931,8 @@ const locationsData = [
     "extract": "<p>La <b>reggia di Caserta</b> è una residenza reale, storicamente appartenuta ai Borbone delle Due Sicilie, ubicata a Caserta. Voluta da Carlo di Borbone, la posa della prima pietra, che diede l'avvio ai lavori di costruzione, si ebbe il 20 gennaio 1752, su progetto di Luigi Vanvitelli: a questo seguirono il figlio Carlo e altri architetti. La reggia venne conclusa nel 1845.\n</p><p>Assieme all'acquedotto Carolino e al belvedere di San Leucio, è stata inserita dall'UNESCO, nel 1997, nella lista dei patrimoni dell'umanità. Costituisce, inoltre, uno dei musei statali italiani, a cui, nel 2016, è stata concessa l'autonomia speciale dal Ministero della cultura.\n</p><p>Nel 2023 la reggia di Caserta ha fatto registrare 1 028 292 visitatori.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Reggia_di_Caserta",
     "subsections": [],
-    "exam_id": "III.5"
+    "exam_id": "III.5",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_reggia_caserta.pdf"
   },
   {
     "name": "Parco Nazionale del Cilento e Vallo di Diano",
@@ -2847,7 +2983,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Torre_della_Garisenda"
       }
     ],
-    "exam_id": "III.8"
+    "exam_id": "III.8",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_torri_bologna.pdf"
   },
   {
     "name": "Monumenti paleocristiani di Ravenna",
@@ -2860,7 +2997,8 @@ const locationsData = [
     "extract": "<p>I <b>monumenti paleocristiani di Ravenna</b> sono un sito seriale inserito dall'UNESCO nella lista dei patrimoni dell'umanità dal 7 dicembre 1996. Il sito è costituito da otto monumenti risalenti al V e al VI secolo: il mausoleo di Galla Placidia, il battistero Neoniano, il battistero degli Ariani, la cappella Arcivescovile, la basilica di Sant'Apollinare Nuovo, il mausoleo di Teodorico, la basilica di San Vitale e la basilica di Sant'Apollinare in Classe.</p>",
     "url": "https://it.wikipedia.org/wiki/Monumenti_paleocristiani_di_Ravenna",
     "subsections": [],
-    "exam_id": "III.9"
+    "exam_id": "III.9",
+    "pdf": "SCHEDE STUDIO\\EMILIA ROMAGNA\\scheda_ravenna.pdf"
   },
   {
     "name": "Area Archeologica di Aquileia",
@@ -2873,7 +3011,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Area_Archeologica_di_Aquileia",
     "subsections": [],
-    "exam_id": "III.10"
+    "exam_id": "III.10",
+    "pdf": "SCHEDE STUDIO\\FRIULI VENEZIA GIULIA\\scheda_aquileia.pdf"
   },
   {
     "name": "Castel Sant’Angelo",
@@ -2885,7 +3024,8 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Rome_-_Italy_%28November_2025%29_-_58.jpg",
     "extract": "<p><b>Castel Sant'Angelo</b> (o <i>Mole Adrianorum</i> o <i>Castellum Crescentii</i> nel X-XII sec.), detto anche <b>mausoleo di Adriano</b>, è un edificio monumentale di Roma, situato sulla sponda destra del Tevere di fronte al Ponte Sant'Angelo (già Ponte Elio - <i>Pons Aelius</i>), a poca distanza dal Vaticano, nel rione XIV - Borgo, adiacente quelli di Prati e Coronari; è collegato allo Stato del Vaticano attraverso il corridoio fortificato del \"passetto\", via della Conciliazione. Il castello è stato radicalmente modificato più volte in epoca medievale e rinascimentale.\n</p><p>Proprietà demaniale dello Stato Italiano, dal dicembre 2014 il Ministero per i beni e le attività culturali lo ha gestito tramite il Polo museale del Lazio, e dal dicembre 2019 attraverso la Direzione Musei statali di Roma.\n</p><p>Nel 2022 ha ricevuto 966 623 visitatori, risultando uno dei musei più visitati d'Italia.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Castel_Sant’Angelo",
-    "exam_id": "III.11"
+    "exam_id": "III.11",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_castel_sant_angelo.pdf"
   },
   {
     "name": "Domus Aurea",
@@ -2911,7 +3051,8 @@ const locationsData = [
     "extract": "Il parco dell'Appia Antica è il parco urbano più grande d'Europa ed è un'area naturale protetta di circa 4 580 ettari istituita nel 1988 dalla Regione Lazio all'interno dei territori comunali di Roma, Ciampino e Marino. Dal 2024 vari tratti della via...",
     "url": "https://it.wikipedia.org/wiki/Parco_regionale_dell%27Appia_antica",
     "subsections": [],
-    "exam_id": "III.13"
+    "exam_id": "III.13",
+    "pdf": "SCHEDE STUDIO\\LAZIO\\scheda_appia_antica.pdf"
   },
   {
     "name": "Villa Adriana",
@@ -2989,7 +3130,8 @@ const locationsData = [
     "extract": "Il lago di Como o Lario (in lombardo Lagh de Comm AFI: /ˈlaːk de ˈkɔm/) è un lago italiano naturale prealpino di origine fluvio-glaciale ricadente nei territori appartenenti alle province di Como e di Lecco a forma di una \"Y\" capovolta con tre rami sottili...",
     "url": "https://it.wikipedia.org/wiki/Lago_di_Como",
     "subsections": [],
-    "exam_id": "III.18"
+    "exam_id": "III.18",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_lago_como.pdf"
   },
   {
     "name": "Grotte di Catullo",
@@ -3040,7 +3182,8 @@ const locationsData = [
     "extract": "<p>La <b>Mole Antonelliana</b> è un edificio monumentale di Torino, situato nel centro storico, simbolo della città e uno dei simboli d'Italia. Il nome deriva dall'imponente altezza, 167,5 metri, mentre il suo aggettivo deriva dall'architetto che la concepì, Alessandro Antonelli.\n</p><p>Iniziata nel 1863 quando Torino era capitale del neonato Regno d'Italia e completata in piena <i>Belle Époque</i> nel 1889 (lo stesso anno in cui venne poi inaugurata la torre Eiffel), fu l'edificio in muratura più alto del mondo fino al 1908 e venne definita da Friedrich Nietzsche \"forse l'opera architettonica più geniale mai realizzata\". Nel corso del XX secolo subì importanti ristrutturazioni con cemento armato e travi di acciaio, per cui essa non si può più considerare una struttura esclusivamente in muratura.\n</p><p>Per anni fu l'edificio più alto di Torino, superato oggi dal moderno Grattacielo della Regione Piemonte. Dal 2000 al suo interno ha sede il Museo nazionale del cinema.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Mole_Antonelliana",
     "subsections": [],
-    "exam_id": "III.21"
+    "exam_id": "III.21",
+    "pdf": "SCHEDE STUDIO\\PIEMONTE\\scheda_mole_antonelliana.pdf"
   },
   {
     "name": "Castello di Racconigi",
@@ -3066,7 +3209,8 @@ const locationsData = [
     "extract": "<p><b>Castel del Monte</b> è un castello del XIII secolo, fatto costruire da Federico II di Svevia, imperatore del Sacro Romano Impero e re di Sicilia. È stato costruito sulla sommità di una collina a 539 metri s.l.m nell'altopiano pugliese delle Murge settentrionali. Si trova nell'omonima frazione del comune italiano di Andria, sita a 17 km dalla città, nei pressi della località di <i>Santa Maria del Monte</i>. Inserito nell'elenco dei Patrimoni dell'umanità dell'UNESCO nel 1996, nel 2014 è stato il trentesimo sito statale italiano più visitato, con 206 924 visitatori e un introito lordo totale di 518 960 Euro. Inoltre è raffigurato sulla versione italiana della moneta da 1 centesimo.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Castel_del_Monte",
     "subsections": [],
-    "exam_id": "III.23"
+    "exam_id": "III.23",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_castel_del_monte.pdf"
   },
   {
     "name": "Trulli di Alberobello",
@@ -3079,7 +3223,8 @@ const locationsData = [
     "extract": "Descrizione o riassunto di Wikipedia non disponibile per Trulli di Alberobello.",
     "url": "https://it.wikipedia.org/wiki/Trulli_di_Alberobello",
     "subsections": [],
-    "exam_id": "III.24"
+    "exam_id": "III.24",
+    "pdf": "SCHEDE STUDIO\\PUGLIA\\scheda_trulli_alberobello.pdf"
   },
   {
     "name": "Su Nuraxi",
@@ -3118,7 +3263,8 @@ const locationsData = [
     "extract": "Il Museo archeologico nazionale di Cagliari è il più importante museo archeologico della Sardegna. Situato dal 1993 all'interno del complesso museale della Cittadella dei musei, negli spazi progettati dagli architetti Piero Gazzola e Libero Cecchini....",
     "url": "https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Cagliari",
     "subsections": [],
-    "exam_id": "III.27"
+    "exam_id": "III.27",
+    "pdf": "SCHEDE STUDIO\\SARDEGNA\\scheda_museo_archeologico_cagliari.pdf"
   },
   {
     "name": "Turris Libisonis",
@@ -3144,7 +3290,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Area_Archeologica_di_Agrigento",
     "subsections": [],
-    "exam_id": "III.28"
+    "exam_id": "III.28",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_valle_templi.pdf"
   },
   {
     "name": "Città tardo barocche della Val di Noto",
@@ -3195,7 +3342,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Palermo_arabo-normanna_e_Cattedrali_di_Cefal%C3%B9_e_Monreale",
     "subsections": [],
-    "exam_id": "III.31"
+    "exam_id": "III.31",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_palermo_arabo_normanna.pdf"
   },
   {
     "name": "Villa Romana del Casale",
@@ -3208,7 +3356,8 @@ const locationsData = [
     "extract": "Dati non trovati.",
     "url": "https://it.wikipedia.org/wiki/Villa_Romana_del_Casale",
     "subsections": [],
-    "exam_id": "III.32"
+    "exam_id": "III.32",
+    "pdf": "SCHEDE STUDIO\\SICILIA\\scheda_villa_casale.pdf"
   },
   {
     "name": "Battistero di San Giovanni (Firenze)",
@@ -3221,7 +3370,8 @@ const locationsData = [
     "extract": "Il battistero di San Giovanni Battista è un celebre edificio religioso di Firenze, situato nell'omonima piazza San Giovanni, di fronte alla cattedrale di Santa Maria del Fiore e con alle spalle il palazzo Arcivescovile. Dedicato al patrono della città...",
     "url": "https://it.wikipedia.org/wiki/Battistero_di_San_Giovanni_%28Firenze%29",
     "subsections": [],
-    "exam_id": "III.33"
+    "exam_id": "III.33",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_duomo_firenze.pdf"
   },
   {
     "name": "Ponte Vecchio",
@@ -3234,7 +3384,8 @@ const locationsData = [
     "extract": "Il Ponte Vecchio è un ponte storico sul fiume Arno a Firenze. Il ponte collega via Por Santa Maria (angolo lungarno degli Acciaiuoli e lungarno degli Archibusieri) a via de' Guicciardini (angolo borgo San Jacopo e via de' Bardi).\nLa denominazione fu conferita...",
     "url": "https://it.wikipedia.org/wiki/Ponte_Vecchio",
     "subsections": [],
-    "exam_id": "III.34"
+    "exam_id": "III.34",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_ponte_palazzo_vecchio.pdf"
   },
   {
     "name": "Piazza dei Miracoli",
@@ -3247,7 +3398,8 @@ const locationsData = [
     "extract": "<p>La <b>piazza del Duomo</b> è il centro artistico e turistico più importante di Pisa. Annoverata fra i Patrimoni dell'Umanità dall'UNESCO dal 1987, vi si possono ammirare i quattro monumenti che formano il centro della vita religiosa cittadina, detti <i>miracoli</i> (così nominati da Gabriele D'Annunzio nell'espressione \"Prato dei Miracoli\", contenuta nel romanzo <i>Forse che sì forse che no</i>, del 1910) per la loro bellezza e originalità: la Cattedrale, il Battistero, il Campo Santo e il Campanile. Da ciò deriva il nome popolare di <b>Piazza dei Miracoli</b>, diffusosi poi nel dopoguerra e ancora dopo nell'era del turismo di massa.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Piazza_dei_Miracoli",
     "subsections": [],
-    "exam_id": "III.35"
+    "exam_id": "III.35",
+    "pdf": "SCHEDE STUDIO\\TOSCANA\\scheda_piazza_miracoli.pdf"
   },
   {
     "name": "Assisi e le sue Basiliche",
@@ -3264,7 +3416,8 @@ const locationsData = [
         "name": "Basilica di San Francesco",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sacro_Convento_%28Assisi%29_-_Remote_view.jpg/500px-Sacro_Convento_%28Assisi%29_-_Remote_view.jpg",
         "extract": "La basilica di San Francesco si trova ad Assisi, in Umbria. È il luogo che dal 1230 conserva e custodisce le spoglie mortali del santo serafico.\nVoluta da papa Gregorio IX quale specialis ecclesia, venne insignita dallo stesso Pontefice del titolo di...",
-        "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco"
+        "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco",
+        "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_san_francesco_assisi.pdf"
       },
       {
         "name": "Basilica di Santa Chiara",
@@ -3279,7 +3432,8 @@ const locationsData = [
         "url": "https://it.wikipedia.org/wiki/Basilica_di_Santa_Maria_degli_Angeli"
       }
     ],
-    "exam_id": "III.36"
+    "exam_id": "III.36",
+    "pdf": "SCHEDE STUDIO\\UMBRIA\\scheda_san_francesco_assisi.pdf"
   },
   {
     "name": "Area megalitica di Saint-Martin-de-Corléans",
@@ -3305,7 +3459,8 @@ const locationsData = [
     "extract": "<p><b>Verona</b> (, <small>AFI</small>: <span title=\"Questa è una trascrizione IPA della pronuncia. Vedere l'alfabeto fonetico internazionale.\">/veˈrona/</span>) è un comune italiano di 255 313 abitanti, capoluogo dell'omonima provincia in Veneto. Primo comune della regione per popolazione, si trova al margine settentrionale della Pianura Padana, lungo il fiume Adige e ai piedi dei monti Lessini.\n</p><p>Di origine preistorica, l'abitato venne rifondato dai Romani all'interno dell'ansa del fiume intorno alla metà del I secolo a.C., rimanendo sotto il governo dell'Impero fino al V secolo, quando venne occupato dal re germanico Teodorico il Grande. Entrò a far parte prima del dominio dei Longobardi e poi dei Franchi, rimanendo fedele nei secoli successivi agli imperatori del Sacro Romano Impero. Divenne libero Comune all'inizio del XII secolo per poi prosperare sotto la Signoria degli Scaligeri. Si dedicò alla Serenissima nel 1405, passando sotto il governo della Repubblica di Venezia. Occupata militarmente da Napoleone nel 1797, nel 1815 divenne parte dell'Impero austriaco che la trasformò nella sua maggiore piazzaforte militare in territorio italico, per poi essere annessa al Regno d'Italia nel 1866.\n</p><p>Verona è stata dichiarata patrimonio dell'umanità dall'UNESCO per le peculiarità urbanistiche e per il patrimonio artistico e culturale. Il suo simbolo è l'Arena ed è conosciuta nel mondo per l'opera di William Shakespeare <i>Romeo e Giulietta</i>. Sede universitaria e importante snodo di scambio logistico e intermodale tramite il Quadrante Europa, l'industria riveste un ruolo chiave nell'economia della città, come il turismo fieristico e culturale.\n</p>\n\n",
     "url": "https://it.wikipedia.org/wiki/Verona",
     "subsections": [],
-    "exam_id": "III.38"
+    "exam_id": "III.38",
+    "pdf": "SCHEDE STUDIO\\VENETO\\scheda_verona.pdf"
   },
   {
     "name": "Ponte di Rialto",
@@ -3330,7 +3485,8 @@ const locationsData = [
     "extract": "<p>Le <b>Dolomiti</b> (<i>Dolomiten</i> in tedesco, <i>Dolomites</i> in ladino, <i>Dolomitis</i> in friulano, <i>Dołomiti</i> in veneto), dette anche <b>Monti pallidi</b>, sono un insieme di gruppi montuosi delle Alpi Orientali italiane, a sud della catena principale alpina, quasi interamente comprese nelle regioni di Friuli-Venezia Giulia, Trentino-Alto Adige e Veneto (suddivise, in ordine di percentuale di distribuzione tra le province di Belluno, Bolzano, Pordenone, Trento e Udine), con una piccola parte anche in Austria (Dolomiti di Lienz) e a cavallo fra Friuli e Slovenia (Alpi Giulie). \n</p><p>Tra le zone più rinomate a livello naturalistico-ambientale e turistico delle Alpi, sede di un parco nazionale e nove parchi naturali e del più grande comprensorio sciistico italiano (Dolomiti Superski). Il 26 giugno 2009 il Comitato esecutivo della Convenzione sul patrimonio materiale dell'umanità dell'UNESCO, riunita a Siviglia, ha dichiarato nove tra alcuni dei loro sistemi Patrimonio dell'umanità.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Dolomiti",
     "subsections": [],
-    "exam_id": "III.40"
+    "exam_id": "III.40",
+    "pdf": "SCHEDE STUDIO\\TRENTINO ALTO ADIGE\\scheda_dolomiti_braies.pdf"
   },
   {
     "name": "Lago d'Iseo",
@@ -3343,7 +3499,8 @@ const locationsData = [
     "extract": "Il lago d'Iseo o Sebino (Lach d'Izé o Sebì in lombardo) è un lago italiano dell'Italia settentrionale, di origine glaciale, \nsituato in Lombardia. Dal 2018 la porzione settentrionale del lago (chiamata Alto Sebino) fa parte della riserva della biosfera...",
     "url": "https://it.wikipedia.org/wiki/Lago_d%27Iseo",
     "subsections": [],
-    "exam_id": ""
+    "exam_id": "",
+    "pdf": "SCHEDE STUDIO\\LOMBARDIA\\scheda_lago_iseo_franciacorta.pdf"
   },
   {
     "name": "Tharros",

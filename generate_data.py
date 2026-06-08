@@ -487,6 +487,166 @@ for loc in locations:
             print(f" -> MISSING COORDS per: {loc['name']}")
     time.sleep(1.0)
 
+# --- PDF MATCHING LOGIC ---
+import os
+import re
+
+pdfs = []
+for root, dirs, files in os.walk('SCHEDE STUDIO'):
+    for file in files:
+        if file.endswith('.pdf'):
+            pdfs.append(os.path.join(root, file).replace('\\\\', '/'))
+
+def normalize(name):
+    name = name.lower()
+    name = re.sub(r'[^a-z0-9]', '', name)
+    return name
+
+hardcoded_mapping = {
+    "val di susa": "scheda_valle_susa.pdf",
+    "i trulli di alberobello": "scheda_trulli_alberobello.pdf",
+    "basilica di san nicola": "scheda_bari_san_nicola.pdf",
+    "castello estense": "scheda_ferrara.pdf",
+    "castello aragonese (otranto)": "scheda_castello_otranto.pdf",
+    "sacra di san michele": "scheda_sacra_san_michele.pdf",
+    "tomba dei giganti di coddu vecchiu": "scheda_coddu_prisgiona.pdf",
+    "complesso nuragico la prisgiona": "scheda_coddu_prisgiona.pdf",
+    "domus de janas": "scheda_domus_janas.pdf",
+    "santuario nuragico di santa cristina": "scheda_santuari_nuragici.pdf",
+    "santuario nuragico di santa vittoria": "scheda_santuari_nuragici.pdf",
+    "duomo di cefalu": "scheda_palermo_arabo_normanna.pdf",
+    "duomo di monreale": "scheda_palermo_arabo_normanna.pdf",
+    "parco archeologico della neapolis": "scheda_siracusa.pdf",
+    "tempietto longobardo": "scheda_cividale.pdf",
+    "anfiteatro romano di susa": "scheda_valle_susa.pdf",
+    "valle dei templi": "scheda_valle_templi.pdf",
+    "villa del casale": "scheda_villa_casale.pdf",
+    "piazza dei miracoli": "scheda_piazza_miracoli.pdf",
+    "ponte vecchio e palazzo vecchio": "scheda_ponte_palazzo_vecchio.pdf",
+    "ponte vecchio": "scheda_ponte_palazzo_vecchio.pdf",
+    "palazzo vecchio": "scheda_ponte_palazzo_vecchio.pdf",
+    "santuario della verna": "scheda_verna_camaldoli.pdf",
+    "monastero di camaldoli": "scheda_verna_camaldoli.pdf",
+    "colline del chianti": "scheda_val_orcia.pdf",
+    "val d'orcia": "scheda_val_orcia.pdf",
+    "pienza": "scheda_val_orcia.pdf",
+    "lago di braies": "scheda_dolomiti_braies.pdf",
+    "dolomiti": "scheda_dolomiti_braies.pdf",
+    "piazza duomo": "scheda_piazza_duomo_trento.pdf",
+    "duomo di trento": "scheda_piazza_duomo_trento.pdf",
+    "basilica di san francesco": "scheda_san_francesco_assisi.pdf",
+    "assisi e le sue basiliche": "scheda_san_francesco_assisi.pdf",
+    "cattedrale di trani": "scheda_cattedrale_trani.pdf",
+    "duomo di milano": "scheda_duomo_milano.pdf",
+    "duomo di orvieto": "scheda_duomo_orvieto.pdf",
+    "castello di quart": "scheda_castello_quart.pdf",
+    "basilica di sant'antonio": "scheda_padova.pdf",
+    "cappella degli scrovegni": "scheda_padova.pdf",
+    "padova centro": "scheda_padova.pdf",
+    "laguna di venezia": "scheda_laguna_venezia.pdf",
+    "canal grande": "scheda_laguna_venezia.pdf",
+    "murano": "scheda_laguna_venezia.pdf",
+    "burano": "scheda_laguna_venezia.pdf",
+    "torcello": "scheda_laguna_venezia.pdf",
+    "museo archeologico nazionale di aquileia": "scheda_aquileia.pdf",
+    "aquileia": "scheda_aquileia.pdf",
+    "centro storico monumentale di napoli": "scheda_centro_storico_napoli.pdf",
+    "museo di capodimonte": "scheda_capodimonte.pdf",
+    "museo nazionale di ravenna": "scheda_ravenna_museo.pdf",
+    "galleria nazionale d'arte moderna e contemporanea": "scheda_gnam.pdf",
+    "palazzo barberini": "scheda_gnaa_barberini_corsini.pdf",
+    "palazzo pitti": "scheda_pitti_boboli_ville.pdf",
+    "museo archeologico nazionale di taranto": "scheda_marta.pdf",
+    "museo archeologico nazionale di napoli": "scheda_mann.pdf",
+    "gallerie dell'accademia": "scheda_accademia_venezia.pdf",
+    "sassi di matera": "scheda_sassi_matera.pdf",
+    "reggia di caserta": "scheda_reggia_caserta.pdf",
+    "torri di bologna": "scheda_torri_bologna.pdf",
+    "monumenti paleocristiani di ravenna": "scheda_ravenna.pdf",
+    "strade nuove e sistema dei palazzi dei rolli di genova": "scheda_genova_rolli.pdf",
+    "lago di como": "scheda_lago_como.pdf",
+    "lago d'iseo": "scheda_lago_iseo_franciacorta.pdf",
+    "franciacorta": "scheda_lago_iseo_franciacorta.pdf",
+    "museo archeologico nazionale di cagliari": "scheda_museo_archeologico_cagliari.pdf",
+    "battistero di san giovanni (firenze)": "scheda_duomo_firenze.pdf",
+    "area archeologica di agrigento": "scheda_valle_templi.pdf",
+    "villa romana del casale": "scheda_villa_casale.pdf",
+    "langhe": "scheda_langhe_monferrato.pdf",
+    "roero": "scheda_langhe_monferrato.pdf",
+    "monferrato": "scheda_langhe_monferrato.pdf",
+    "trulli di alberobello": "scheda_trulli_alberobello.pdf",
+    "sacrario militare di redipuglia": "scheda_redipuglia.pdf",
+    "castello di miramare": "scheda_miramare.pdf",
+    "basilica di santa croce (lecce)": "scheda_santa_croce_lecce.pdf",
+    "palazzo dei celestini (lecce)": "scheda_santa_croce_lecce.pdf",
+    "ponte del diavolo (cividale)": "scheda_cividale.pdf"
+}
+
+for loc in final_data:
+    best_match = None
+    loc_name_lower = loc['name'].lower()
+    if loc_name_lower in hardcoded_mapping:
+        target_pdf = hardcoded_mapping[loc_name_lower]
+        for p in pdfs:
+            if target_pdf in p:
+                best_match = p
+                break
+
+    if not best_match:
+        for pdf in pdfs:
+            region_folder = loc['region'].upper()
+            if 'VALLE' in region_folder: region_folder = 'VALLE D_AOSTA'
+            if 'TRENTINO' in region_folder: region_folder = 'TRENTINO ALTO ADIGE'
+            if 'EMILIA' in region_folder: region_folder = 'EMILIA ROMAGNA'
+            if 'FRIULI' in region_folder: region_folder = 'FRIULI VENEZIA GIULIA'
+            if region_folder not in pdf: continue
+                
+            pdf_name = os.path.basename(pdf).replace('.pdf', '').replace('scheda_', '')
+            pdf_norm = normalize(pdf_name)
+            loc_norm = normalize(loc['name'])
+            
+            if pdf_norm == loc_norm:
+                best_match = pdf
+                break
+            if len(pdf_norm) > 4 and (pdf_norm in loc_norm or loc_norm in pdf_norm):
+                best_match = pdf
+                break
+
+    if best_match:
+        loc['pdf'] = best_match
+    
+    if 'subsections' in loc:
+        for sub in loc['subsections']:
+            sub_best_match = None
+            sub_name_lower = sub['name'].lower()
+            if sub_name_lower in hardcoded_mapping:
+                target_pdf = hardcoded_mapping[sub_name_lower]
+                for p in pdfs:
+                    if target_pdf in p:
+                        sub_best_match = p
+                        break
+            
+            if not sub_best_match:
+                for pdf in pdfs:
+                    region_folder = loc['region'].upper()
+                    if 'VALLE' in region_folder: region_folder = 'VALLE D_AOSTA'
+                    if 'TRENTINO' in region_folder: region_folder = 'TRENTINO ALTO ADIGE'
+                    if 'EMILIA' in region_folder: region_folder = 'EMILIA ROMAGNA'
+                    if 'FRIULI' in region_folder: region_folder = 'FRIULI VENEZIA GIULIA'
+                    if region_folder not in pdf: continue
+                        
+                    pdf_name = os.path.basename(pdf).replace('.pdf', '').replace('scheda_', '')
+                    pdf_norm = normalize(pdf_name)
+                    sub_norm = normalize(sub['name'])
+                    
+                    if len(pdf_norm) > 4 and (pdf_norm in sub_norm or sub_norm in pdf_norm):
+                        sub_best_match = pdf
+                        break
+            
+            if sub_best_match:
+                sub['pdf'] = sub_best_match
+# --- END PDF MATCHING LOGIC ---
+
 js_content = f"const locationsData = {json.dumps(final_data, indent=2, ensure_ascii=False)};"
 
 with open('data.js', 'w', encoding='utf-8') as f:
