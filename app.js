@@ -16,12 +16,27 @@ L.control.zoom({
     position: 'bottomright'
 }).addTo(map);
 
-// Add Tile Layer (OpenStreetMap)
-L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
+// Add Tile Layer (Esri)
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012',
     maxZoom: 19
 }).addTo(map);
+
+// Add Regional Boundaries
+fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_regions.geojson')
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            style: {
+                color: '#475569',
+                weight: 2,
+                opacity: 0.5,
+                fillOpacity: 0.05,
+                dashArray: '5, 5'
+            }
+        }).addTo(map);
+    })
+    .catch(error => console.error('Error loading regional boundaries:', error));
 
 const createCustomIcon = (sezione, isBoth) => {
     let colorClass = 'icon-' + sezione;
@@ -83,8 +98,11 @@ data.forEach(loc => {
             }
 
             if (loc.url) {
-                popupHtml += `<a href="${loc.url}" target="_blank" class="popup-btn">Approfondisci su Wikipedia</a>`;
+                popupHtml += `<a href="${loc.url}" target="_blank" class="popup-btn" style="margin-bottom: 0.5rem;">Approfondisci su Wikipedia</a>`;
             }
+            
+            const ytUrl = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(loc.name);
+            popupHtml += `<a href="${ytUrl}" target="_blank" class="popup-btn" style="background-color: #ef4444; border-color: #ef4444;">Cerca su YouTube</a>`;
             
             popupHtml += `</div></div>`;
             
@@ -164,6 +182,11 @@ const openMuseumModal = (loc) => {
         linkObj.style.display = 'none';
     }
 
+    const ytObj = document.getElementById('museum-main-yt');
+    if (ytObj) {
+        ytObj.href = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(loc.name);
+    }
+
     const pdfObj = document.getElementById('museum-main-pdf');
     if (loc.pdf) {
         pdfObj.href = loc.pdf;
@@ -210,6 +233,8 @@ const openMuseumModal = (loc) => {
             if (sub.url) {
                 html += `<a href="${sub.url}" target="_blank" class="btn-link" style="font-size:0.85rem;">Vedi su Wiki</a>`;
             }
+            const ytSubUrl = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(loc.name + ' ' + sub.name);
+            html += `<a href="${ytSubUrl}" target="_blank" class="btn-link" style="font-size:0.85rem; background-color: #ef4444; border-color: #ef4444;">Cerca su YT</a>`;
             html += `</div></div>`;
             
             card.innerHTML = html;

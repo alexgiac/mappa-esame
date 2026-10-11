@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compendio Giuridico - Esame Guida Turistica</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1d4ed8;
+            --primary-light: #eff6ff;
+            --primary-dark: #1e40af;
+            --emerald: #059669;
+            --emerald-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --rose: #e11d48;
+            --rose-light: #fff1f2;
+            --bg-color: #f8fafc;
+            --surface: #ffffff;
+            --surface-elevated: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --border: #e2e8f0;
+            --border-hover: #cbd5e1;
+            --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.07);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.08);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.07);
+            --radius-sm: 0.375rem;
+            --radius-md: 0.625rem;
+            --radius-lg: 0.875rem;
+            --radius-xl: 1.25rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Top Sticky Navbar */
+        .top-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            height: 70px;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.875rem;
+            background: #f1f5f9;
+            color: #334155;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .btn-back:hover {
+            background: #e2e8f0;
+            color: var(--text-main);
+            transform: translateX(-2px);
+        }
+
+        .nav-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .nav-badge {
+            background: var(--primary-light);
+            color: var(--primary);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: 1px solid rgba(29, 78, 216, 0.2);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.45rem 0.85rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid var(--border);
+        }
+
+        .btn-docx {
+            background: #2563eb;
+            color: white;
+            border-color: #1d4ed8;
+        }
+        .btn-docx:hover {
+            background: #1d4ed8;
+            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-txt {
+            background: #f8fafc;
+            color: #334155;
+        }
+        .btn-txt:hover {
+            background: #f1f5f9;
+        }
+
+        .btn-print {
+            background: #f8fafc;
+            color: #334155;
+        }
+        .btn-print:hover {
+            background: #f1f5f9;
+        }
+
+        /* Layout Container */
+        .layout-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 310px 1fr;
+            gap: 2.5rem;
+            padding: 2.5rem 2rem;
+        }
+
+        /* Sidebar Table of Contents */
+        .sidebar {
+            position: sticky;
+            top: 95px;
+            height: calc(100vh - 120px);
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .toc-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            flex: 1;
+        }
+
+        .toc-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .toc-header h3 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #334155;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.55rem 0.75rem 0.55rem 2.2rem;
+            font-family: inherit;
+            font-size: 0.85rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            background: #f8fafc;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            background: #fff;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.1);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+            pointer-events: none;
+        }
+
+        .toc-list {
+            list-style: none;
+            overflow-y: auto;
+            flex: 1;
+            padding-right: 0.25rem;
+        }
+
+        .toc-list::-webkit-scrollbar {
+            width: 4px;
+        }
+        .toc-list::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        .toc-item {
+            margin-bottom: 0.35rem;
+        }
+
+        .toc-link {
+            display: block;
+            padding: 0.5rem 0.75rem;
+            color: #475569;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: var(--radius-sm);
+            transition: all 0.15s;
+            line-height: 1.35;
+        }
+
+        .toc-link:hover, .toc-link.active {
+            background: var(--primary-light);
+            color: var(--primary);
+            font-weight: 600;
+            padding-left: 0.95rem;
+        }
+
+        /* Main Content */
+        .content-area {
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+
+        /* Banner Hero */
+        .hero-banner {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #0369a1 100%);
+            color: white;
+            padding: 2.5rem;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-banner::after {
+            content: '';
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-banner h1 {
+            font-size: 2.15rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-banner p {
+            font-size: 1.05rem;
+            opacity: 0.9;
+            max-width: 820px;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 1.25rem;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-val {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .stat-lbl {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Section Cards */
+        .section-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            padding: 2.25rem;
+            box-shadow: var(--shadow-sm);
+            scroll-margin-top: 95px;
+            transition: border-color 0.2s;
+        }
+
+        .section-card:hover {
+            border-color: var(--border-hover);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 2px solid #f1f5f9;
+        }
+
+        .section-title-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .section-tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--primary);
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--text-main);
+            letter-spacing: -0.02em;
+        }
+
+        .source-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.35rem 0.75rem;
+            background: #f1f5f9;
+            color: #334155;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 9999px;
+            border: 1px solid var(--border);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .source-pill:hover {
+            background: #e2e8f0;
+            color: var(--primary);
+        }
+
+        /* Typography & Content elements */
+        h3.subheading {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin: 1.75rem 0 0.85rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h3.subheading:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #334155;
+            font-size: 0.975rem;
+        }
+
+        ul.styled-list {
+            list-style: none;
+            margin-bottom: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+        }
+
+        ul.styled-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            font-size: 0.95rem;
+            color: #334155;
+        }
+
+        ul.styled-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0.35rem;
+            color: var(--primary);
+            font-size: 1.4rem;
+            line-height: 1;
+            top: -0.1rem;
+        }
+
+        /* Article Callout Badges */
+        .art-badge {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #3730a3;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.35rem;
+        }
+
+        .art-badge.green {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .art-badge.amber {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .art-badge.rose {
+            background: #ffe4e6;
+            color: #9f1239;
+        }
+
+        /* Callout Box */
+        .callout {
+            background: #f8fafc;
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 1.25rem 0;
+        }
+
+        .callout.green {
+            border-left-color: var(--emerald);
+            background: var(--emerald-light);
+        }
+
+        .callout.amber {
+            border-left-color: var(--amber);
+            background: var(--amber-light);
+        }
+
+        .callout.rose {
+            border-left-color: var(--rose);
+            background: var(--rose-light);
+        }
+
+        .callout-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .callout p {
+            margin-bottom: 0;
+            font-size: 0.925rem;
+        }
+
+        /* Comparison & Data Tables */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        table.comp-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.925rem;
+            text-align: left;
+            background: var(--surface);
+        }
+
+        table.comp-table th {
+            background: #0f172a;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.85rem 1.15rem;
+            letter-spacing: 0.02em;
+            border: 1px solid #1e293b;
+        }
+
+        table.comp-table td {
+            padding: 0.85rem 1.15rem;
+            border-bottom: 1px solid var(--border);
+            color: #334155;
+            vertical-align: top;
+        }
+
+        table.comp-table tr:nth-child(even) td {
+            background: #f8fafc;
+        }
+
+        table.comp-table tr:hover td {
+            background: #f1f5f9;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .feature-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.35rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            transition: transform 0.15s, border-color 0.15s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-2px);
+            border-color: #cbd5e1;
+            background: #fff;
+        }
+
+        .feature-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            font-size: 1.05rem;
+        }
+
+        .feature-card p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            color: #475569;
+        }
+
+        /* Quiz / Q&A Accordion */
+        .quiz-item {
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            margin-bottom: 0.85rem;
+            overflow: hidden;
+            background: var(--surface);
+            transition: all 0.2s;
+        }
+
+        .quiz-item:hover {
+            border-color: var(--primary);
+        }
+
+        .quiz-question {
+            padding: 1rem 1.25rem;
+            font-weight: 600;
+            color: #1e293b;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+            background: #f8fafc;
+        }
+
+        .quiz-question span.q-num {
+            color: var(--primary);
+            font-weight: 700;
+            margin-right: 0.5rem;
+        }
+
+        .quiz-icon {
+            transition: transform 0.2s;
+            color: #64748b;
+        }
+
+        .quiz-item.open .quiz-icon {
+            transform: rotate(180deg);
+        }
+
+        .quiz-answer {
+            padding: 1.15rem 1.25rem;
+            background: #ffffff;
+            border-top: 1px solid var(--border);
+            display: none;
+            color: #334155;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .quiz-item.open .quiz-answer {
+            display: block;
+        }
+
+        /* Footer */
+        .app-footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .layout-container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                display: none;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .top-nav {
+                padding: 0 1rem;
+            }
+            .nav-actions {
+                display: none;
+            }
+            .layout-container {
+                padding: 1.25rem 1rem;
+            }
+            .hero-banner {
+                padding: 1.5rem;
+            }
+            .hero-banner h1 {
+                font-size: 1.6rem;
+            }
+            .section-card {
+                padding: 1.35rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .top-nav, .sidebar, .btn-action, .search-box, .app-footer {
+                display: none !important;
+            }
+            .layout-container {
+                display: block;
+                padding: 0;
+                max-width: 100%;
+            }
+            .section-card {
+                border: none;
+                box-shadow: none;
+                padding: 1rem 0;
+                page-break-inside: avoid;
+            }
+            .quiz-answer {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Top Navigation -->
+    <header class="top-nav">
+        <div class="nav-left">
+            <a href="index.html" class="btn-back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Torna alla Mappa
+            </a>
+            <div class="nav-title">
+                <span>Compendio Giuridico</span>
+                <span class="nav-badge">Sezione IV</span>
+            </div>
+        </div>
+        <div class="nav-actions">
+            <a href="leggi/Sunto.docx" class="btn-action btn-docx" download>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Scarica Word (.docx)
+            </a>
+            <a href="leggi/sunto.txt" class="btn-action btn-txt" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                Testo (.txt)
+            </a>
+            <button class="btn-action btn-print" onclick="window.print()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Stampa
+            </button>
+        </div>
+    </header>
+
+    <div class="layout-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="toc-card">
+                <div class="toc-header">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                        Indice Materie
+                    </h3>
+                </div>
+
+                <div class="search-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" id="filterInput" placeholder="Cerca argomento o articolo..." onkeyup="filterContent()">
+                </div>
+
+                <ul class="toc-list" id="tocList">
+                    <li class="toc-item"><a href="#intro" class="toc-link">Introduzione & Bando</a></li>
+                    <li class="toc-item"><a href="#sez-1" class="toc-link">1. Beni Culturali e Paesaggio (D.Lgs. 42/2004)</a></li>
+                    <li class="toc-item"><a href="#sez-2" class="toc-link">2. Diritto del Turismo e Contratti (D.Lgs. 79/2011)</a></li>
+                    <li class="toc-item"><a href="#sez-3" class="toc-link">3. Professione di Guida Turistica (L. 190/2023 - D.M. 88/2024)</a></li>
+                    <li class="toc-item"><a href="#sez-4" class="toc-link">4. Principi Costituzionali e Fonti UE</a></li>
+                    <li class="toc-item"><a href="#sez-5" class="toc-link">5. Ministero del Turismo (L. 55/2021)</a></li>
+                    <li class="toc-item"><a href="#sez-6" class="toc-link">6. Accessibilità e Inclusività (ISO 21902 - L. 104)</a></li>
+                    <li class="toc-item"><a href="#sez-7" class="toc-link">7. Quadro Sinottico Comparativo</a></li>
+                    <li class="toc-item"><a href="#sez-8" class="toc-link">8. Quiz e Domande d'Esame</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content Stream -->
+        <main class="content-area">
+
+            <!-- Hero Banner -->
+            <section class="hero-banner" id="intro">
+                <h1>Compendio Giuridico Operativo</h1>
+                <p>Guida completa e ad alto rendimento per la preparazione della <strong>Sezione IV (Legislazione dei Beni Culturali, del Turismo e della Professione)</strong> dell'Esame Nazionale di Abilitazione a Guida Turistica (Bando 2026 - Allegato 3).</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-val">6 Aree</span>
+                        <span class="stat-lbl">Materie d'Esame</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">100%</span>
+                        <span class="stat-lbl">Copertura Bando</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">L. 190/2023</span>
+                        <span class="stat-lbl">& D.M. 88/2024</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">ISO 21902</span>
+                        <span class="stat-lbl">Accessibilità Totale</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 1. BENI CULTURALI E DEL PAESAGGIO -->
+            <article class="section-card" id="sez-1">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 1</span>
+                        <h2 class="section-title">1. Disciplina dei Beni Culturali e del Paesaggio</h2>
+                    </div>
+                    <a href="leggi/dlgs_42_2004.pdf" target="_blank" class="source-pill">
+                        📄 D.Lgs. 42/2004 PDF
+                    </a>
+                </div>
+
+                <div class="callout">
+                    <div class="callout-title">
+                        <span class="art-badge">Art. 9 Cost.</span>
+                        Fondamento Costituzionale
+                    </div>
+                    <p><em>"La Repubblica promuove lo sviluppo della cultura e la ricerca scientifica e tecnica. Tutela il paesaggio e il patrimonio storico e artistico della Nazione."</em> Con la riforma costituzionale del 2022 è stata introdotta la tutela dell'ambiente, della biodiversità e degli ecosistemi anche nell'interesse delle future generazioni.</p>
+                </div>
+
+                <h3 class="subheading">Il Patrimonio Culturale (Artt. 1 e 2)</h3>
+                <p>Il patrimonio culturale è composto da:</p>
+                <ul class="styled-list">
+                    <li><span class="art-badge">Beni culturali</span> Cose immobili e mobili che presentano interesse artistico, storico, archeologico, etnoantropologico, archivistico e bibliografico, e le altre cose individuate dalla legge quali testimonianze aventi valore di civiltà.</li>
+                    <li><span class="art-badge">Beni paesaggistici</span> Immobili e aree costituenti espressione dei valori storici, culturali, naturali, morfologici ed estetici del territorio.</li>
+                </ul>
+
+                <h3 class="subheading">La Tripartizione delle Funzioni: Tutela, Valorizzazione, Fruizione</h3>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <span class="art-badge rose">Art. 3</span> Tutela
+                        </div>
+                        <p><strong>Competenza esclusiva dello Stato</strong> (MiC e Soprintendenze). Attività dirette a individuare, proteggere e conservare i beni culturali per fini di pubblica fruizione. Comprende vincoli di tutela (art. 13) e autorizzazioni preventive (art. 21).</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <span class="art-badge green">Art. 6</span> Valorizzazione
+                        </div>
+                        <p><strong>Competenza concorrente Stato-Regioni</strong> (Art. 117 Cost.). Attività dirette a promuovere la conoscenza e assicurare le migliori condizioni di fruizione pubblica anche per disabili. <em>Principio di subordinazione:</em> la tutela prevale sempre e la valorizzazione non può pregiudicarla.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <span class="art-badge amber">Art. 102</span> Fruizione
+                        </div>
+                        <p>Fine ultimo comune sia della tutela sia della valorizzazione. Gli istituti pubblici sono destinati alla fruizione pubblica secondo principi di continuità, adeguatezza, ragionevolezza e non discriminazione.</p>
+                    </div>
+                </div>
+
+                <h3 class="subheading">Gli Istituti e Luoghi della Cultura (Art. 101)</h3>
+                <ul class="styled-list">
+                    <li><strong>Museo:</strong> Struttura permanente che acquisisce, cataloga, conserva, ordina ed espone beni culturali per finalità di educazione e di studio.</li>
+                    <li><strong>Area archeologica:</strong> Sito caratterizzato dalla presenza di resti di natura fossile o di manufatti e strutture preistoriche o antiche.</li>
+                    <li><strong>Parco archeologico:</strong> Ambito territoriale caratterizzato da importanti evidenze archeologiche e dalla compresenza di valori storici, paesaggistici o ambientali, attrezzato come museo all'aperto.</li>
+                    <li><strong>Complesso monumentale:</strong> Insieme formato da una pluralità di fabbricati edificati in epoche diverse, con identità artistica o storica unitaria.</li>
+                    <li><strong>Biblioteca & Archivio:</strong> Strutture per la raccolta, conservazione e consultazione di libri o documenti originali storici.</li>
+                </ul>
+
+                <h3 class="subheading">Forme di Gestione e Servizi Aggiuntivi (Artt. 115 e 117)</h3>
+                <p>La valorizzazione dei beni pubblici può svolgersi in forma <strong>diretta</strong> (tramite strutture interne autonome) o <strong>indiretta</strong> (concessione a terzi tramite gara pubblica). L'Art. 117 disciplina i servizi al pubblico: biglietteria, audioguide, visite guidate, bookshop, caffetteria, accoglienza e didattica.</p>
+                <p><strong>Mecenatismo Culturale:</strong> L'<strong>Art Bonus (D.L. 83/2014)</strong> concede un credito d'imposta del <strong>65%</strong> per erogazioni liberali in denaro a sostegno del patrimonio culturale pubblico.</p>
+            </article>
+
+            <!-- 2. DIRITTO DEL TURISMO E DEI CONTRATTI -->
+            <article class="section-card" id="sez-2">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 2</span>
+                        <h2 class="section-title">2. Diritto del Turismo e Disciplina dei Contratti</h2>
+                    </div>
+                    <a href="leggi/dlgs_79_2011.pdf" target="_blank" class="source-pill">
+                        📄 D.Lgs. 79/2011 PDF
+                    </a>
+                </div>
+
+                <h3 class="subheading">L'Impresa Turistica e le Agenzie di Viaggio (Artt. 4 e 18 ss.)</h3>
+                <p>L'<strong>impresa turistica</strong> (art. 4) esercita attività economiche organizzate per la produzione, commercializzazione, intermediazione e gestione di servizi, strutture ricettive, stabilimenti balneari e pacchetti. Le agenzie di viaggio si distinguono in:</p>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header">Tour Operator (Organizzatore)</div>
+                        <p>Combina i servizi turistici creando pacchetti venduti direttamente o tramite agenzie terze.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">Agenzia Dettagliante (Venditore)</div>
+                        <p>Commercializza pacchetti organizzati da altri operatori o singoli servizi separati.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">OTA (Online Travel Agencies)</div>
+                        <p>Piattaforme di intermediazione turistica esclusivamente telematica.</p>
+                    </div>
+                </div>
+                <p><em>Requisiti di esercizio:</em> SCIA regionale/comunale, presenza di un <strong>Direttore Tecnico abilitato</strong>, polizza RC verso terzi e garanzia contro insolvenza/fallimento.</p>
+
+                <h3 class="subheading">Contratti del Turismo: Pacchetti vs Servizi Collegati (D.Lgs. 62/2018)</h3>
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Parametro</th>
+                                <th>Pacchetto Turistico (Art. 33)</th>
+                                <th>Servizio Turistico Collegato - STC (Art. 50)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Definizione</strong></td>
+                                <td>Combinazione di almeno 2 tipi diversi di servizi (trasporto, alloggio, noleggio auto, altro servizio non accessorio) per lo stesso viaggio.</td>
+                                <td>Almeno 2 tipi diversi di servizi acquistati per lo stesso viaggio con contratti distinti agevolati da un unico operatore entro 24 ore.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Responsabilità</strong></td>
+                                <td>L'organizzatore è responsabile dell'esatta esecuzione di <strong>tutti i servizi</strong> del pacchetto; responsabilità solidale con il venditore.</td>
+                                <td>Ciascun fornitore risponde solo del proprio singolo servizio contrattualizzato.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tutela Insolvenza</strong></td>
+                                <td>Piena copertura assicurativa/bancaria per rimborso integrale e rimpatrio immediato del turista.</td>
+                                <td>Garanzia limitata al rimborso dei pagamenti incassati dall'agevolatore in caso di insolvenza propria.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="subheading">Diritti del Viaggiatore e Danno da Vacanza Rovinata</h3>
+                <ul class="styled-list">
+                    <li><span class="art-badge">Recesso Art. 41</span> Il viaggiatore può sempre recedere prima della partenza con penale standard; può recedere <strong>senza alcuna penale</strong> in caso di circostanze straordinarie e inevitabili (calamità, guerre, epidemie) nel luogo di destinazione.</li>
+                    <li><span class="art-badge rose">Art. 46-47</span> <strong>Danno da vacanza rovinata:</strong> Risarcimento del danno morale/non patrimoniale per il tempo di vacanza inutilmente trascorso e la perdita dell'occasione di svago a causa di grave inadempimento. Prescrizione: 3 anni (o 12-24 mesi per trasporto).</li>
+                    <li><span class="art-badge green">Art. 45</span> <strong>Obbligo di assistenza:</strong> L'organizzatore deve prestare tempestiva assistenza al turista in difficoltà durante il viaggio.</li>
+                </ul>
+            </article>
+
+            <!-- 3. DISCIPLINA GUIDA TURISTICA -->
+            <article class="section-card" id="sez-3">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 3</span>
+                        <h2 class="section-title">3. Disciplina della Professione di Guida Turistica</h2>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <a href="leggi/l_190_2023.pdf" target="_blank" class="source-pill">📄 L. 190/2023</a>
+                        <a href="leggi/dm_88_2024.pdf" target="_blank" class="source-pill">📄 D.M. 88/2024</a>
+                    </div>
+                </div>
+
+                <div class="callout green">
+                    <div class="callout-title">
+                        <span class="art-badge green">Art. 2 L. 190/2023</span>
+                        Definizione e Oggetto della Professione
+                    </div>
+                    <p>La <strong>guida turistica</strong> è il professionista abilitato su tutto il territorio nazionale che illustra e interpreta, nel corso di visite guidate a persone singole o gruppi, il valore e il significato, quali testimonianze di civiltà di un territorio e della sua comunità, del patrimonio storico, culturale, museale, religioso, architettonico, artistico, archeologico e monumentale italiano, in correlazione ai contesti demo-etno-antropologici, paesaggistici ed enogastronomici.</p>
+                </div>
+
+                <h3 class="subheading">Requisiti di Ammissione all'Esame Nazionale (Art. 4 L. 190 & Art. 1 D.M. 88)</h3>
+                <ul class="styled-list">
+                    <li>Maggiore età e cittadinanza italiana/UE o regolare permesso di soggiorno per cittadini extra-UE.</li>
+                    <li>Godimento dei diritti civili e politici; assenza di condanne definitive ostative.</li>
+                    <li><strong>Titolo di studio:</strong> Diploma di laurea (triennale o magistrale).</li>
+                    <li><strong>Competenze linguistiche certificate:</strong> Almeno <strong>due lingue straniere</strong>: una di livello <strong>C1</strong> e una di livello <strong>B2</strong> (QCER). Per i cittadini non italiani: lingua italiana certificata a livello <strong>C1</strong>.</li>
+                </ul>
+
+                <h3 class="subheading">Le Tre Prove d'Esame (Art. 3 D.M. 88/2024)</h3>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header">1. Prova Scritta</div>
+                        <p>Quesiti a risposta multipla su storia dell'arte, storia, archeologia, geografia, diritto del turismo, beni culturali, accessibilità e inclusività.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">2. Prova Orale</div>
+                        <p>Colloquio interdisciplinare sulle stesse materie della prova scritta con accertamento e conversazione nelle due lingue straniere.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">3. Prova Tecnico-Pratica</div>
+                        <p>Simulazione reale di una visita guidata: conduzione del gruppo, gestione tempi, accoglienza, sicurezza e tecniche di inclusione per visitatori con disabilità.</p>
+                    </div>
+                </div>
+
+                <h3 class="subheading">Elenco Nazionale, Tesserino e Diritti (Artt. 5, 9, 11)</h3>
+                <ul class="styled-list">
+                    <li><strong>Elenco Nazionale:</strong> Gestito dal Ministero del Turismo in due sezioni: <em>Ordinaria</em> (abilitati con esame o già abilitati ex art. 13) e <em>Speciale</em> (titoli esteri riconosciuti).</li>
+                    <li><strong>Tesserino di riconoscimento:</strong> Dotato di dati anagrafici, numero univoco, lingue abilitate e <strong>QR-code</strong> ministeriale per la verifica istantanea. Obbligo di esporlo in modo visibile durante l'attività.</li>
+                    <li><span class="art-badge green">Art. 9 L. 190</span> <strong>Diritto di ingresso gratuito:</strong> La guida munita di tesserino entra gratuitamente in tutti i musei, monumenti e siti archeologici pubblici (statali, regionali, comunali) e privati convenzionati.</li>
+                    <li><strong>Aggiornamento obbligatorio (Art. 7):</strong> Cadenza <strong>triennale</strong> per un totale di almeno <strong>50 ore</strong> di corsi autorizzati dal Ministero.</li>
+                </ul>
+
+                <h3 class="subheading">Quadro Sanzionatorio (Art. 12 L. 190/2023)</h3>
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Violazione</th>
+                                <th>Soggetto Responsabile</th>
+                                <th>Sanzione Pecuniaria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Esercizio abusivo</strong> della professione di guida</td>
+                                <td>Chiunque svolga l'attività senza iscrizione all'Elenco nazionale</td>
+                                <td><strong style="color: var(--rose);">Da 3.000 € a 12.000 €</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Intermediazione abusiva</strong> (avvalersi di guide non iscritte)</td>
+                                <td>Agenzie di viaggio, Tour Operator, Hotel, piattaforme online</td>
+                                <td><strong style="color: var(--rose);">Da 5.000 € a 15.000 €</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mancata esposizione del tesserino</strong> o violazione obblighi di condotta</td>
+                                <td>Guida turistica abilitata</td>
+                                <td>Da 500 € a 3.000 € (recidiva: sospensione)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- 4. PRINCIPI COSTITUZIONALI E FONTI UE -->
+            <article class="section-card" id="sez-4">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 4</span>
+                        <h2 class="section-title">4. Principi Costituzionali e Fonti dell'Unione Europea</h2>
+                    </div>
+                    <a href="leggi/estratti_legge.pdf" target="_blank" class="source-pill">
+                        📄 Estratti Normativi PDF
+                    </a>
+                </div>
+
+                <h3 class="subheading">I Principi Costituzionali sul Turismo</h3>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge">Art. 9</span> Cultura e Ambiente</div>
+                        <p>Tutela del paesaggio, patrimonio storico-artistico e ambiente: presupposto e limite della valorizzazione turistica sostenibile.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge">Art. 16</span> Circolazione</div>
+                        <p>Libertà di circolare e soggiornare sul territorio nazionale: condizione giuridica primaria del turismo interno.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge">Art. 32</span> Salute</div>
+                        <p>Tutela della salute: base del turismo termale, sanitario e degli standard di igiene e sicurezza nei viaggi.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge">Art. 36</span> Riposo e Ferie</div>
+                        <p>Diritto a ferie retribuite e riposo settimanale: presupposto sociale ed economico del turismo moderno.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge">Art. 41</span> Impresa</div>
+                        <p>Libertà di iniziativa economica privata, nel rispetto dell'utilità sociale, della sicurezza e dell'ambiente.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header"><span class="art-badge rose">Art. 117</span> Riparto Competenze</div>
+                        <p>Il turismo è materia <strong>residuale ed esclusiva delle Regioni</strong>. Lo Stato mantiene competenze trasversali: tutela concorrenza, contratti, LEP, ambiente e beni culturali.</p>
+                    </div>
+                </div>
+
+                <h3 class="subheading">L'Azione dell'Unione Europea (Art. 195 TFUE)</h3>
+                <p>L'UE ha competenza di <strong>sostegno, coordinamento e completamento</strong> delle azioni nazionali, escludendo l'armonizzazione forzata delle leggi. Principi cardine:</p>
+                <ul class="styled-list">
+                    <li><strong>Libera prestazione di servizi (Art. 56 TFUE) & Libertà di stabilimento (Art. 49 TFUE):</strong> Attuati dalla Direttiva Bolkestein (2006/123/CE), con salvaguardia delle ragioni imperative di interesse generale (tutela del patrimonio storico-artistico).</li>
+                    <li><strong>Direttiva Qualifiche (2005/36/CE e 2013/55/UE):</strong> Riconoscimento titoli professionali tra Stati UE con misure compensative (esame o tirocinio) e prestazione temporanea tramite dichiarazione preventiva.</li>
+                    <li><strong>Marchi europei:</strong> EDEN (European Destinations of Excellence), Ecolabel per strutture ricettive, transizione ecologica e digitale (Agenda UE 2030).</li>
+                </ul>
+            </article>
+
+            <!-- 5. MINISTERO DEL TURISMO -->
+            <article class="section-card" id="sez-5">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 5</span>
+                        <h2 class="section-title">5. Missione e Funzioni del Ministero del Turismo</h2>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <a href="leggi/l_55_2021.pdf" target="_blank" class="source-pill">📄 L. 55/2021</a>
+                        <a href="leggi/dpcm_177_2023.pdf" target="_blank" class="source-pill">📄 DPCM 177/2023</a>
+                    </div>
+                </div>
+
+                <p>Istituito con <strong>Legge 22 aprile 2021, n. 55</strong> mediante scorporo dal Ministero della Cultura, è il ministero con portafoglio dedicato alla guida strategica del settore turistico nazionale.</p>
+
+                <h3 class="subheading">Le Tre Direzioni Generali (D.P.C.M. 177/2023)</h3>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header">1. DG Programmazione e Politiche</div>
+                        <p>Pianificazione strategica, attuazione del Piano Strategico del Turismo (PST), relazioni internazionali/UE, innovazione digitale e Tourism Digital Hub (TDH).</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">2. DG Valorizzazione e Promozione</div>
+                        <p>Sviluppo segmenti (borghi, cammini, cicloturismo, enogastronomia, turismo congressuale), raccordo con <strong>ENIT S.p.A.</strong> per la promozione all'estero.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">3. DG Risorse Umane e Professioni</div>
+                        <p>Amministrazione generale e, soprattutto, <strong>disciplina e tenuta dell'Elenco Nazionale delle Guide Turistiche</strong>, indizione esami abilitativi e vigilanza.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 6. ACCESSIBILITÀ E INCLUSIVITÀ -->
+            <article class="section-card" id="sez-6">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Area Giuridica 6</span>
+                        <h2 class="section-title">6. Accessibilità e Inclusività dell'Offerta Turistica</h2>
+                    </div>
+                    <a href="leggi/uni_21902.pdf" target="_blank" class="source-pill">
+                        📄 ISO 21902 PDF
+                    </a>
+                </div>
+
+                <div class="callout green">
+                    <div class="callout-title">Accessibilità vs Inclusività: La Differenza Concettuale</div>
+                    <p>L'<strong>accessibilità</strong> è la condizione tecnica oggettiva (assenza di barriere architettoniche e sensoriali). L'<strong>inclusività</strong> è la strategia culturale basata sul <strong>Design for All</strong> (Progettazione Universale): creare ambienti ed esperienze fruibili fin dall'origine da chiunque, senza percorsi speciali o segreganti. Secondo l'ICF (D.Lgs. 62/2024), la disabilità nasce dall'incontro tra condizioni di salute e barriere ambientali/culturali.</p>
+                </div>
+
+                <h3 class="subheading">Quadro Normativo Fondamentale</h3>
+                <ul class="styled-list">
+                    <li><span class="art-badge">Art. 23 L. 104/1992</span> Rimozione di ostacoli per l'accesso ad attività sportive, ricreative e turistiche; obbligo di accesso al mare nelle concessioni balneari; divieto di discriminazioni in alberghi e musei.</li>
+                    <li><span class="art-badge green">Art. 23-bis L. 104/1992</span> Riserva posti in spettacoli ed eventi; <strong>gratuità del titolo di accesso per l'accompagnatore</strong> della persona con invalidità &ge; 67% nei luoghi della cultura e manifestazioni pubbliche.</li>
+                    <li><span class="art-badge">Art. 30 Convenzione ONU</span> Diritto di partecipazione alla vita culturale in formati accessibili (Braille, Easy-to-Read, audio-descrizioni), musei e siti accessibili, tutela della cultura sorda e della Lingua dei Segni (LIS).</li>
+                    <li><span class="art-badge amber">ISO 21902:2021</span> Standard internazionale per il turismo accessibile per tutti lungo l'intera catena del valore (trasporti, alloggi, attrazioni, guide):
+                        <ul style="margin-top: 0.4rem; list-style: circle; padding-left: 1.5rem;">
+                            <li><strong>Catena ininterrotta:</strong> L'accessibilità non può spezzarsi tra un servizio e l'altro.</li>
+                            <li><strong>No Surcharge:</strong> Divieto assoluto di sovrapprezzo per camere, percorsi o servizi accessibili.</li>
+                            <li><strong>Informazione trasparente:</strong> Dati oggettivi pre-viaggio verificati (siti conformi WCAG 2.1 AA).</li>
+                        </ul>
+                    </li>
+                    <li><span class="art-badge">Art. 8 D.Lgs. 29/2024</span> Turismo lento e del benessere per persone anziane: soggiorni calmierati in bassa stagione, cicloturismo dolce e progetti congiunti MiTur-MiC per luoghi della cultura fruibili da anziani non autosufficienti.</li>
+                </ul>
+
+                <h3 class="subheading">Buone Prassi Operative della Guida Turistica</h3>
+                <div class="cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-header">Disabilità Motoria</div>
+                        <p>Verifica preventiva pendenze (&lt;8%), rampe, ascensori e bagni accessibili; pianificazione soste e calibrazione dei tempi.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">Disabilità Visiva</div>
+                        <p>Audiodescrizione accurata dello spazio e delle forme; orientamento a ore di orologio; esplorazione tattile di riproduzioni o modelli 3D.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">Disabilità Uditiva</div>
+                        <p>Sempre rivolti alla luce per la lettura labiale; collaborazione con interpreti LIS; sussidi radio whisper con anello a induzione (telecoil).</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-header">Fragilità Cognitive</div>
+                        <p>Linguaggio <em>Easy-to-Read</em> (semplice e lineare); anticipazione visiva delle tappe per ridurre l'ansia; pause in ambienti a basso carico sensoriale.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 7. SCHEMA COMPARATIVO -->
+            <article class="section-card" id="sez-7">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Sintesi Rapida</span>
+                        <h2 class="section-title">7. Quadro Sinottico Comparativo</h2>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Parametro</th>
+                                <th>Tutela (Art. 3 D.Lgs. 42)</th>
+                                <th>Valorizzazione (Art. 6 D.Lgs. 42)</th>
+                                <th>Fruizione (Art. 102 D.Lgs. 42)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Finalità</strong></td>
+                                <td>Individuare, proteggere, conservare il bene</td>
+                                <td>Promuovere la conoscenza e migliori condizioni d'uso</td>
+                                <td>Garantire l'accesso pubblico a tutti i cittadini</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Competenza Legislativa</strong></td>
+                                <td><strong>Esclusiva dello Stato</strong> (Art. 117 c. 2 lett. s)</td>
+                                <td><strong>Concorrente Stato-Regioni</strong> (Art. 117 c. 3)</td>
+                                <td>Stato per beni statali; Regioni per altri beni pubblici</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Organi Operativi</strong></td>
+                                <td>MiC, Soprintendenze Archeologia Belle Arti Paesaggio</td>
+                                <td>MiC, Regioni, Comuni, Fondazioni, Imprese private</td>
+                                <td>Istituti e luoghi della cultura (musei, parchi, monumenti)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rapporto Gerarchico</strong></td>
+                                <td>Prevale sempre (limite inderogabile)</td>
+                                <td>Subordinata alla tutela (non può recarle danno)</td>
+                                <td>Fine ultimo e coronamento di entrambe</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- 8. QUIZ E DOMANDE FREQUENTI -->
+            <article class="section-card" id="sez-8">
+                <div class="section-header">
+                    <div class="section-title-wrap">
+                        <span class="section-tag">Autovalutazione</span>
+                        <h2 class="section-title">8. Quiz e Domande d'Esame con Soluzione</h2>
+                    </div>
+                </div>
+
+                <p>Clicca sulle domande per mostrare o nascondere la risposta corretta per il ripasso:</p>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q1.</span> A chi è attribuita la competenza legislativa primaria in materia di turismo?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Alle <strong>Regioni</strong> in via residuale ed esclusiva ai sensi dell'Art. 117, comma 4 della Costituzione. Lo Stato mantiene tuttavia competenze trasversali che incidono fortemente sulla materia (tutela della concorrenza, contratti, livelli essenziali delle prestazioni, tutela dell'ambiente e dei beni culturali).
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q2.</span> Qual è la differenza giuridica tra pacchetto turistico e servizio turistico collegato (STC)?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Il pacchetto turistico (Art. 33 Codice del Turismo) combina almeno due servizi diversi acquistati insieme con responsabilità solidale dell'organizzatore per l'intera vacanza e piena copertura contro fallimento/danno da vacanza rovinata. Il servizio collegato (STC, Art. 50) comporta contratti distinti con singoli fornitori agevolati da un unico intermediario entro 24 ore; la tutela del consumatore è limitata all'insolvenza del professionista agevolatore.
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q3.</span> Quale sanzione è prevista per l'esercizio abusivo della professione di guida turistica (L. 190/2023)?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Sanzione amministrativa pecuniaria da <strong>3.000 € a 12.000 €</strong> (Art. 12, comma 5 Legge 190/2023). Per le agenzie o soggetti che si avvalgono di soggetti non abilitati la sanzione sale da <strong>5.000 € a 15.000 €</strong>.
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q4.</span> A quali agevolazioni dà diritto il tesserino personale di riconoscimento della guida turistica?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Ai sensi dell'Art. 9 della Legge 190/2023, la guida munita di tesserino ha diritto all'<strong>ingresso gratuito</strong> in tutti i musei, gallerie, monumenti e parchi archeologici di proprietà dello Stato, delle Regioni, degli enti locali e dei siti privati convenzionati.
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q5.</span> Quali sono i requisiti di qualificazione linguistica per l'accesso all'esame nazionale di guida?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Certificazione di almeno <strong>due lingue straniere</strong>: una di livello <strong>C1</strong> e una di livello <strong>B2</strong> del QCER (Art. 4 L. 190/2023 e Art. 1 D.M. 88/2024). Per i candidati con cittadinanza non italiana è inoltre richiesta la conoscenza certificata della lingua italiana a livello <strong>C1</strong>.
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q6.</span> Cosa stabilisce il principio del "No Surcharge" sancito dalla norma ISO 21902:2021?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> Vieta qualsiasi sovrapprezzo economico o tariffario a carico delle persone con disabilità per la fruizione di camere accessibili, ausili, trasporti adattati o servizi turistici inclusivi rispetto alla tariffa standard applicata a qualsiasi altro utente.
+                    </div>
+                </div>
+
+                <div class="quiz-item" onclick="toggleQuiz(this)">
+                    <div class="quiz-question">
+                        <span><span class="q-num">Q7.</span> Quale importante agevolazione economica è stata introdotta nel 2024 per l'accesso ai luoghi culturali delle persone con disabilità?</span>
+                        <svg class="quiz-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="quiz-answer">
+                        <strong>Risposta:</strong> L'Art. 23-bis della Legge 104/1992 (introdotto dal D.Lgs. 222/2023) garantisce la <strong>gratuità del biglietto d'ingresso per l'accompagnatore</strong> della persona con invalidità pari o superiore al 67% (o con handicap grave) in teatri, concerti, musei e manifestazioni pubbliche aperte al pubblico.
+                    </div>
+                </div>
+            </article>
+
+            <!-- Footer -->
+            <footer class="app-footer">
+                <p>Compendio Giuridico per l'Esame di Abilitazione alla Professione di Guida Turistica &bull; Mappa Esame Guide</p>
+                <p style="margin-top: 0.35rem; font-size: 0.8rem; color: #94a3b8;">Aggiornato alle più recenti disposizioni: Legge 190/2023, D.M. 88/2024, ISO 21902:2021, D.Lgs. 29/2024</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script>
+        function toggleQuiz(item) {
+            item.classList.toggle('open');
+        }
+
+        function filterContent() {
+            const query = document.getElementById('filterInput').value.toLowerCase().trim();
+            const sections = document.querySelectorAll('.section-card');
+            
+            sections.forEach(sec => {
+                const text = sec.innerText.toLowerCase();
+                if (query === '' || text.includes(query)) {
+                    sec.style.display = 'block';
+                } else {
+                    sec.style.display = 'none';
+                }
+            });
+        }
+
+        // Active link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('article.section-card, section.hero-banner');
+            const navLinks = document.querySelectorAll('.toc-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                if (window.pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
