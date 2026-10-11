@@ -3163,13 +3163,14 @@ const locationsData = [
     "region": "Molise",
     "sezione": "III",
     "sezione_both": false,
-    "lat": 41.433056,
-    "lon": 14.618611,
-    "image": null,
-    "extract": "Dati non trovati.",
-    "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Sepino",
+    "lat": 41.433333,
+    "lon": 14.616667,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Aerial_view_of_Saepinum_%282024%29.jpg/500px-Aerial_view_of_Saepinum_%282024%29.jpg",
+    "extract": "Saepinum è un'area archeologica di epoca romana ubicata nella regione Molise, in provincia di Campobasso, situata nella piana alle falde del Matese aperta sulla valle del fiume Tammaro. Il sito, localizzato lungo l'antico tratturo Pescasseroli-Candela, sorge a circa 3 km a nord dell'attuale borgo di Sepino ed è cinto da mura di età augustea.",
+    "url": "https://it.wikipedia.org/wiki/Saepinum",
     "subsections": [],
-    "exam_id": "III.20"
+    "exam_id": "III.20",
+    "pdf": "SCHEDE STUDIO/MOLISE/scheda_saepinum.pdf"
   },
   {
     "name": "Mole Antonelliana",
