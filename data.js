@@ -179,11 +179,11 @@ const locationsData = [
     "region": "Calabria",
     "sezione": "I",
     "sezione_both": false,
-    "lat": null,
-    "lon": null,
-    "image": null,
-    "extract": "Dati non trovati.",
-    "url": "https://it.wikipedia.org/wiki/Parco_Archeologico_di_Sibari",
+    "lat": 39.716564,
+    "lon": 16.493696,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sibari-scavi-teatro.jpg/500px-Sibari-scavi-teatro.jpg",
+    "extract": "Il Parco archeologico di Sibari si trova a Cassano all'Ionio, nella frazione di Sibari, località Parco del Cavallo, Casa Bianca, in provincia di Cosenza. Si tratta del sito di una delle più ricche e importanti città greche della Magna Grecia. I reperti...",
+    "url": "https://it.wikipedia.org/wiki/Parco_archeologico_di_Sibari",
     "subsections": [],
     "exam_id": "I.11",
     "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_sibari.pdf"
@@ -215,20 +215,6 @@ const locationsData = [
     "exam_id": "I.12"
   },
   {
-    "name": "Le Castella",
-    "region": "Calabria",
-    "sezione": "I",
-    "sezione_both": false,
-    "lat": 38.9082,
-    "lon": 17.0229,
-    "image": null,
-    "extract": "Le Castella – frazione della provincia di Crotone, in Calabria\nLe Castella – territorio di Cisterna di Latina, nel Lazio",
-    "url": "https://it.wikipedia.org/wiki/Le_Castella",
-    "subsections": [],
-    "exam_id": "I.13",
-    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_le_castella.pdf"
-  },
-  {
     "name": "Le Castella (Isola di Capo Rizzuto)",
     "region": "Calabria",
     "sezione": "I",
@@ -238,6 +224,7 @@ const locationsData = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortezza_Aragonese_Le_Castella_%28KR%29.jpg",
     "extract": "<p><b>Punta delle Castella</b>, più nota come <b>Le Castella</b>, è un borgo costiero italiano in provincia di Crotone, in Calabria. È situata sulla costa ionica della Calabria, nell'estremità orientale del golfo di Squillace a <span><span data-sort-value=\"7004200000000000000♠\"></span>20 km</span> da Crotone e <span><span data-sort-value=\"7004400000000000000♠\"></span>40 km</span> da Catanzaro. \n</p><p>Il borgo è noto principalmente per la fortezza circondata dal mare e le sue coste costituite da spiagge e scogliere di vario tipo. La flora e la fauna marina sono tutelate dall'area marina protetta di Capo Rizzuto, la più estesa in Italia.\n</p>",
     "url": "https://it.wikipedia.org/wiki/Le_Castella_(Isola_di_Capo_Rizzuto)",
+    "subsections": [],
     "exam_id": "I.13",
     "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_le_castella.pdf"
   },
