@@ -15,9 +15,9 @@ locations_raw = [
     {"name": "Gerace", "region": "Calabria", "sezione": "I"},
     {"name": "Locri Epizefiri", "region": "Calabria", "sezione": "I"},
     {"name": "Cattolica di Stilo", "region": "Calabria", "sezione": "I"},
-    {"name": "Sibari", "region": "Calabria", "sezione": "I"},
+    {"name": "Parco archeologico di Sibari", "region": "Calabria", "sezione": "I"},
     {"name": "Capo Colonna", "region": "Calabria", "sezione": "I"},
-    {"name": "Le Castella", "region": "Calabria", "sezione": "I", "fallback_lat": 38.9082, "fallback_lon": 17.0229},
+    {"name": "Le Castella (Isola di Capo Rizzuto)", "region": "Calabria", "sezione": "I"},
     {"name": "Parco nazionale della Sila", "region": "Calabria", "sezione": "I"},
     
     # ID 15 Split
@@ -503,6 +503,10 @@ def normalize(name):
     return name
 
 hardcoded_mapping = {
+    "certosa di san giacomo": "scheda_capri.pdf",
+    "grotta azzurra": "scheda_capri.pdf",
+    "parco archeologico di sibari": "scheda_sibari.pdf",
+    "le castella (isola di capo rizzuto)": "scheda_le_castella.pdf",
     "val di susa": "scheda_valle_susa.pdf",
     "i trulli di alberobello": "scheda_trulli_alberobello.pdf",
     "basilica di san nicola": "scheda_bari_san_nicola.pdf",

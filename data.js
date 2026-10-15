@@ -228,6 +228,20 @@ const locationsData = [
     "exam_id": "I.14"
   },
   {
+    "name": "Certosa di San Giacomo",
+    "region": "Campania",
+    "sezione": "I",
+    "sezione_both": false,
+    "lat": 40.547794,
+    "lon": 14.245207,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Certosa_di_San_Giacomo%2C_Capri.jpg/500px-Certosa_di_San_Giacomo%2C_Capri.jpg",
+    "extract": "La Certosa di San Giacomo è un complesso monastico certosino dell'isola di Capri, fondato nel 1371 per volere di Giacomo Arcucci, segretario della regina Giovanna I d'Angiò. È il più antico insediamento monastico dell'isola e oggi ospita, tra l'altro, il museo con le tele del pittore Karl Wilhelm Diefenbach...",
+    "url": "https://it.wikipedia.org/wiki/Certosa_di_San_Giacomo",
+    "subsections": [],
+    "exam_id": "I.15",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_capri.pdf"
+  },
+  {
     "name": "Grotta Azzurra",
     "region": "Campania",
     "sezione": "I",
@@ -238,7 +252,8 @@ const locationsData = [
     "extract": "La Grotta Azzurra è una cavità carsica che si apre nel versante nord-occidentale dell'isola di Capri. Amministrativamente afferisce al comune di Anacapri, nella città metropolitana di Napoli.\nPrestigioso ninfeo dell'età romana, dopo un lungo declino la...",
     "url": "https://it.wikipedia.org/wiki/Grotta_Azzurra",
     "subsections": [],
-    "exam_id": "I.15"
+    "exam_id": "I.15",
+    "pdf": "SCHEDE STUDIO\\CAMPANIA\\scheda_capri.pdf"
   },
   {
     "name": "Amalfi",
