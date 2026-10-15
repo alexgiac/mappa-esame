@@ -161,20 +161,6 @@ const locationsData = [
     "exam_id": "I.10"
   },
   {
-    "name": "Sibari",
-    "region": "Calabria",
-    "sezione": "I",
-    "sezione_both": false,
-    "lat": 39.750833,
-    "lon": 16.451389,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sibari_beach_-_panoramio_-_MrPepanos_%282%29.jpg/500px-Sibari_beach_-_panoramio_-_MrPepanos_%282%29.jpg",
-    "extract": "Sìbari (in greco antico Σύβαρις?, Sýbaris) è una frazione del comune di Cassano all'Ionio, in provincia di Cosenza. Fu una delle più importanti città (poleis) della Magna Grecia sul mar Ionio, affacciata sul golfo di Taranto, tra i fiumi Crati (Crathis...",
-    "url": "https://it.wikipedia.org/wiki/Sibari",
-    "subsections": [],
-    "exam_id": "I.11",
-    "pdf": "SCHEDE STUDIO\\CALABRIA\\scheda_sibari.pdf"
-  },
-  {
     "name": "Parco Archeologico di Sibari",
     "region": "Calabria",
     "sezione": "I",
